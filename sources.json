@@ -2,5 +2,11 @@
   "version": 1,
   "disableTitles": [],
   "overrides": [],
-  "additions": []
+  "additions": [
+    {
+      "title": "BuzzFeed",
+      "topic": "News",
+      "url": "https://www.buzzfeed.com/index.xml"
+    }
+  ]
 }
