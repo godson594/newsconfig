@@ -1,5 +1,12 @@
 {
   "version": 1,
+  "categories": [
+    {
+      "name": "Celeb",
+      "icon": "sparkles",
+      "color": "#FF6B9A"
+    }
+  ],
   "disableTitles": [],
   "overrides": [],
   "additions": [
@@ -7,6 +14,21 @@
       "title": "BuzzFeed",
       "topic": "News",
       "url": "https://www.buzzfeed.com/index.xml"
+    },
+    {
+      "title": "E! News",
+      "topic": "Celeb",
+      "url": "https://www.eonline.com/syndication/feeds/rssfeeds/topstories.xml"
+    },
+    {
+      "title": "Us Weekly",
+      "topic": "Celeb",
+      "url": "https://www.usmagazine.com/feed/"
+    },
+    {
+      "title": "Page Six",
+      "topic": "Celeb",
+      "url": "https://pagesix.com/feed/"
     }
   ]
 }
