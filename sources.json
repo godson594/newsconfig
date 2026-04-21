@@ -29,6 +29,16 @@
       "title": "Page Six",
       "topic": "Celeb",
       "url": "https://pagesix.com/feed/"
+    },
+    {
+      "title": "Variety",
+      "topic": "Celeb",
+      "url": "https://variety.com/feed/"
+    },
+    {
+      "title": "Deadline",
+      "topic": "Celeb",
+      "url": "https://deadline.com/feed/"
     }
   ]
 }
