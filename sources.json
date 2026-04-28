@@ -21,6 +21,11 @@
       "url": "https://www.buzzfeed.com/index.xml"
     },
     {
+      "title": "VICE",
+      "topic": "Culture",
+      "url": "https://www.vice.com/en/feed/?locale=en_us"
+    },
+    {
       "title": "E! News",
       "topic": "Celeb",
       "url": "https://www.eonline.com/syndication/feeds/rssfeeds/topstories.xml"
