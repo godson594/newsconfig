@@ -1,10 +1,15 @@
 {
-  "version": 1,
+  "version": 2,
   "categories": [
     {
       "name": "Celeb",
       "icon": "sparkles",
       "color": "#FF6B9A"
+    },
+    {
+      "name": "Real Estate",
+      "icon": "house",
+      "color": "#2FBF71"
     }
   ],
   "disableTitles": [
@@ -13,7 +18,32 @@
     "Elle",
     "Serious Eats"
   ],
-  "overrides": [],
+  "overrides": [
+    {
+      "matchTitle": "Dan Lew Codes",
+      "topic": "Dev"
+    },
+    {
+      "matchTitle": "Handstand Sam",
+      "topic": "Dev"
+    },
+    {
+      "matchTitle": "OkKotlin",
+      "topic": "Dev"
+    },
+    {
+      "matchTitle": "Public Object",
+      "topic": "Dev"
+    },
+    {
+      "matchTitle": "Zarah Dominguez",
+      "topic": "Dev"
+    },
+    {
+      "matchTitle": "chRyNaN Codes",
+      "topic": "Dev"
+    }
+  ],
   "additions": [
     {
       "title": "BuzzFeed",
@@ -49,6 +79,11 @@
       "title": "Deadline",
       "topic": "Celeb",
       "url": "https://deadline.com/feed/"
+    },
+    {
+      "title": "Inman",
+      "topic": "Real Estate",
+      "url": "https://feeds.feedburner.com/inmannews"
     }
   ]
 }
