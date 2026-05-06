@@ -85,6 +85,131 @@
       "title": "Inman",
       "topic": "Real Estate",
       "url": "https://feeds.feedburner.com/inmannews"
+    },
+    {
+      "title": "Daring Fireball",
+      "topic": "Tech",
+      "url": "https://daringfireball.net/feeds/main"
+    },
+    {
+      "title": "Six Colors",
+      "topic": "Tech",
+      "url": "https://sixcolors.com/feed/"
+    },
+    {
+      "title": "MacStories",
+      "topic": "Tech",
+      "url": "https://www.macstories.net/feed/"
+    },
+    {
+      "title": "Apple Developer",
+      "topic": "Tech",
+      "url": "https://developer.apple.com/news/rss/news.rss"
+    },
+    {
+      "title": "The Sweet Setup",
+      "topic": "Tech",
+      "url": "https://thesweetsetup.com/feed/"
+    },
+    {
+      "title": "The Pragmatic Engineer",
+      "topic": "Dev",
+      "url": "https://newsletter.pragmaticengineer.com/feed"
+    },
+    {
+      "title": "Julia Evans",
+      "topic": "Dev",
+      "url": "https://jvns.ca/atom.xml"
+    },
+    {
+      "title": "ByteByteGo",
+      "topic": "Dev",
+      "url": "https://blog.bytebytego.com/feed"
+    },
+    {
+      "title": "Coding Horror",
+      "topic": "Dev",
+      "url": "https://blog.codinghorror.com/rss/"
+    },
+    {
+      "title": "Krebs on Security",
+      "topic": "Tech",
+      "url": "https://krebsonsecurity.com/feed/"
+    },
+    {
+      "title": "Google DeepMind",
+      "topic": "AI",
+      "url": "https://deepmind.google/blog/rss.xml"
+    },
+    {
+      "title": "Chromium Blog",
+      "topic": "Tech",
+      "url": "https://blog.chromium.org/feeds/posts/default?alt=rss"
+    },
+    {
+      "title": "TensorFlow Blog",
+      "topic": "AI",
+      "url": "https://blog.tensorflow.org/feeds/posts/default"
+    },
+    {
+      "title": "GitHub Engineering",
+      "topic": "Dev",
+      "url": "https://github.blog/engineering/feed/"
+    },
+    {
+      "title": "Netflix TechBlog",
+      "topic": "Dev",
+      "url": "https://netflixtechblog.com/feed"
+    },
+    {
+      "title": "Nintendo Life",
+      "topic": "Gaming",
+      "url": "https://www.nintendolife.com/feeds/latest"
+    },
+    {
+      "title": "PlayStation Blog",
+      "topic": "Gaming",
+      "url": "https://blog.playstation.com/feed"
+    },
+    {
+      "title": "Pure Nintendo",
+      "topic": "Gaming",
+      "url": "https://purenintendo.com/feed/"
+    },
+    {
+      "title": "ProPublica",
+      "topic": "News",
+      "url": "https://www.propublica.org/feeds/propublica/main"
+    },
+    {
+      "title": "Atlas Obscura",
+      "topic": "Travel",
+      "url": "https://www.atlasobscura.com/feeds/latest"
+    },
+    {
+      "title": "Longreads",
+      "topic": "Culture",
+      "url": "https://longreads.com/feed/"
+    },
+    {
+      "title": "NASA Image of the Day",
+      "topic": "Science",
+      "url": "https://www.nasa.gov/feeds/iotd-feed"
+    },
+    {
+      "title": "101 Cookbooks",
+      "topic": "Food",
+      "url": "https://www.101cookbooks.com/feed"
+    },
+    {
+      "title": "Smitten Kitchen",
+      "topic": "Food",
+      "url": "https://smittenkitchen.com/feed/"
+    },
+    {
+      "title": "Love and Lemons",
+      "topic": "Food",
+      "url": "https://www.loveandlemons.com/feed/"
     }
   ]
 }
