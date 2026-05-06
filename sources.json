@@ -215,6 +215,11 @@
       "title": "Bluesky Crypto",
       "topic": "Crypto",
       "url": "https://bsky.app/profile/did:plc:ef3pb4ayru3qffqsovyl3kb5/rss"
+    },
+    {
+      "title": "CoinGecko Buzz",
+      "topic": "Crypto",
+      "url": "https://feeds.feedburner.com/CoingeckoBuzz"
     }
   ]
 }
