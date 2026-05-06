@@ -210,6 +210,11 @@
       "title": "Love and Lemons",
       "topic": "Food",
       "url": "https://www.loveandlemons.com/feed/"
+    },
+    {
+      "title": "Bluesky Crypto",
+      "topic": "Crypto",
+      "url": "https://bsky.app/profile/did:plc:ef3pb4ayru3qffqsovyl3kb5/rss"
     }
   ]
 }
