@@ -1,5 +1,12 @@
 {
   "version": 2,
+  "thumbnailProxy": {
+    "enabled": true,
+    "baseUrl": "https://bknews-thumbs.blakekarnes.workers.dev",
+    "sourceQueryParameter": "url",
+    "quality": 62,
+    "format": "webp"
+  },
   "categories": [
     {
       "name": "Celeb",
