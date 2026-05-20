@@ -3,6 +3,14 @@
   "version": 1,
   "items": [
     {
+      "id": "memorial-day-2026-test-hour",
+      "imageUrl": "https://raw.githubusercontent.com/godson594/newsconfig/main/assets/header_memorial_day_otter.png",
+      "accessibilityLabel": "otter.news Memorial Day mascot",
+      "startAt": "2026-05-19T23:40:00-07:00",
+      "endAt": "2026-05-20T00:45:00-07:00",
+      "enabled": true
+    },
+    {
       "id": "memorial-day-2026",
       "imageUrl": "https://raw.githubusercontent.com/godson594/newsconfig/main/assets/header_memorial_day_otter.png",
       "accessibilityLabel": "otter.news Memorial Day mascot",
