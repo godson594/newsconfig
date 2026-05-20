@@ -1,0 +1,14 @@
+{
+  "enabled": true,
+  "version": 1,
+  "items": [
+    {
+      "id": "memorial-day-2026",
+      "imageUrl": "https://raw.githubusercontent.com/godson594/newsconfig/main/assets/header_memorial_day_otter.png",
+      "accessibilityLabel": "otter.news Memorial Day mascot",
+      "startAt": "2026-05-25T00:00:00-07:00",
+      "endAt": "2026-05-26T00:00:00-07:00",
+      "enabled": true
+    }
+  ]
+}
