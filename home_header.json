@@ -1,0 +1,26 @@
+{
+  "version": 1,
+  "headers": [
+    {
+      "id": "memorial-day-2026",
+      "title": "Top Stories",
+      "style": "americanFlag",
+      "startAt": "2026-05-23T00:00:00Z",
+      "endAt": "2026-05-27T08:00:00Z"
+    },
+    {
+      "id": "independence-day-2026",
+      "title": "Top Stories",
+      "style": "americanFlag",
+      "startAt": "2026-07-03T00:00:00Z",
+      "endAt": "2026-07-05T08:00:00Z"
+    },
+    {
+      "id": "veterans-day-2026",
+      "title": "Top Stories",
+      "style": "americanFlag",
+      "startAt": "2026-11-11T00:00:00Z",
+      "endAt": "2026-11-12T08:00:00Z"
+    }
+  ]
+}
