@@ -1,7 +1,9 @@
 {
   "enabled": true,
   "version": 1,
-  "hiddenOptionIds": [],
+  "hiddenOptionIds": [
+    "pastry_baker"
+  ],
   "items": [
     {
       "id": "memorial-day-2026-test-hour",
