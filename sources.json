@@ -89,6 +89,11 @@
       "url": "https://deadline.com/feed/"
     },
     {
+      "title": "TMZ",
+      "topic": "Celeb",
+      "url": "https://www.tmz.com/rss.xml"
+    },
+    {
       "title": "Inman",
       "topic": "Real Estate",
       "url": "https://feeds.feedburner.com/inmannews"
