@@ -7,6 +7,12 @@
     "quality": 62,
     "format": "webp"
   },
+  "feedApi": {
+    "enabled": true,
+    "baseUrl": "https://otter-feed-api-1089238944013.us-central1.run.app",
+    "timeoutSeconds": 8,
+    "limit": 120
+  },
   "categories": [
     {
       "name": "Celeb",
