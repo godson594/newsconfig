@@ -13,6 +13,13 @@
     "timeoutSeconds": 8,
     "limit": 120
   },
+  "heroBlockRules": [
+    {
+      "linkContains": "road-to-ufc-season-5-results-scorecards",
+      "sourceContains": "ufc",
+      "category": "MMA"
+    }
+  ],
   "categories": [
     {
       "name": "Celeb",
