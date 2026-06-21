@@ -10,7 +10,7 @@
   "feedApi": {
     "enabled": true,
     "baseUrl": "https://otter-feed-api-1089238944013.us-central1.run.app",
-    "timeoutSeconds": 8,
+    "timeoutSeconds": 30,
     "limit": 120
   },
   "heroBlockRules": [
