@@ -1,5 +1,5 @@
 {
-  "version": 2,
+  "version": 3,
   "thumbnailProxy": {
     "enabled": false,
     "baseUrl": "https://bknews-thumbs.blakekarnes.workers.dev",
@@ -50,7 +50,12 @@
     "Apartment Therapy Design",
     "Elle",
     "Serious Eats",
-    "Sherdog"
+    "Sherdog",
+    "Google News Top Stories",
+    "Google News World",
+    "Google News Business",
+    "Google News Technology",
+    "Popular Mechanics"
   ],
   "overrides": [
     {
