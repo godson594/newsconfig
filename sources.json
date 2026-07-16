@@ -100,6 +100,11 @@
       "url": "https://blog.humblebundle.com/feed/"
     },
     {
+      "title": "Slickdeals",
+      "topic": "Deals",
+      "url": "https://feeds.feedburner.com/SlickdealsnetFP"
+    },
+    {
       "title": "VICE",
       "topic": "Culture",
       "url": "https://www.vice.com/en/feed/?locale=en_us"
