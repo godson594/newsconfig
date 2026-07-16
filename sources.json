@@ -1,5 +1,5 @@
 {
-  "version": 3,
+  "version": 4,
   "thumbnailProxy": {
     "enabled": false,
     "baseUrl": "https://bknews-thumbs.blakekarnes.workers.dev",
@@ -43,6 +43,11 @@
       "name": "CyberSec",
       "icon": "shield_lefthalf_fill",
       "color": "#00A99D"
+    },
+    {
+      "name": "Deals",
+      "icon": "tag",
+      "color": "#FF8A3D"
     }
   ],
   "disableTitles": [
@@ -88,6 +93,11 @@
       "title": "BuzzFeed",
       "topic": "News",
       "url": "https://www.buzzfeed.com/index.xml"
+    },
+    {
+      "title": "Humble Bundle",
+      "topic": "Deals",
+      "url": "https://blog.humblebundle.com/feed/"
     },
     {
       "title": "VICE",
