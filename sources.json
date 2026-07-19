@@ -1,5 +1,5 @@
 {
-  "version": 4,
+  "version": 5,
   "thumbnailProxy": {
     "enabled": false,
     "baseUrl": "https://bknews-thumbs.blakekarnes.workers.dev",
@@ -30,6 +30,76 @@
     {
       "category": "Sports",
       "_note": "Temporary client hotfix 2026-07-18: existing builds must not rotate ordinary Sports stories into hero; remove after the major-events-only app guard ships"
+    },
+    {
+      "category": "AI"
+    },
+    {
+      "category": "Automotive"
+    },
+    {
+      "category": "Boxing"
+    },
+    {
+      "category": "Celeb"
+    },
+    {
+      "category": "Comics"
+    },
+    {
+      "category": "Crypto"
+    },
+    {
+      "category": "Culture"
+    },
+    {
+      "category": "CyberSec"
+    },
+    {
+      "category": "Design"
+    },
+    {
+      "category": "Dev"
+    },
+    {
+      "category": "Firearms"
+    },
+    {
+      "category": "Food"
+    },
+    {
+      "category": "Gaming"
+    },
+    {
+      "category": "Interior design"
+    },
+    {
+      "category": "Japan"
+    },
+    {
+      "category": "Lifestyle"
+    },
+    {
+      "category": "Local"
+    },
+    {
+      "category": "Military"
+    },
+    {
+      "category": "MMA"
+    },
+    {
+      "category": "Music"
+    },
+    {
+      "category": "Real Estate"
+    },
+    {
+      "category": "Tech"
+    },
+    {
+      "category": "Travel",
+      "_note": "Legacy-build safety net 2026-07-19: local hero rotation is restricted to general-audience hard news until clients enforce corroboration metadata"
     }
   ],
   "categories": [
