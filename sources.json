@@ -26,6 +26,10 @@
     {
       "sourceContains": "defiant",
       "_note": "The Defiant (Crypto) never leads the hero - single-source crypto pieces kept re-winning rotation 2026-07-05; articles still show as normal cards"
+    },
+    {
+      "category": "Sports",
+      "_note": "Temporary client hotfix 2026-07-18: existing builds must not rotate ordinary Sports stories into hero; remove after the major-events-only app guard ships"
     }
   ],
   "categories": [
