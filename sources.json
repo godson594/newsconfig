@@ -244,6 +244,31 @@
       "url": "https://thesweetsetup.com/feed/"
     },
     {
+      "title": "Tom's Hardware",
+      "topic": "Tech",
+      "url": "https://www.tomshardware.com/feeds/all"
+    },
+    {
+      "title": "InformationWeek",
+      "topic": "Tech",
+      "url": "https://www.informationweek.com/rss.xml"
+    },
+    {
+      "title": "DigiTimes",
+      "topic": "Tech",
+      "url": "https://www.digitimes.com/rss/daily.xml"
+    },
+    {
+      "title": "OMG! Ubuntu",
+      "topic": "Tech",
+      "url": "https://www.omgubuntu.co.uk/feed"
+    },
+    {
+      "title": "OSNews",
+      "topic": "Tech",
+      "url": "https://www.osnews.com/feed/"
+    },
+    {
       "title": "The Pragmatic Engineer",
       "topic": "Dev",
       "url": "https://newsletter.pragmaticengineer.com/feed"
@@ -267,6 +292,11 @@
       "title": "Google DeepMind",
       "topic": "AI",
       "url": "https://deepmind.google/blog/rss.xml"
+    },
+    {
+      "title": "VentureBeat",
+      "topic": "AI",
+      "url": "https://venturebeat.com/feed/"
     },
     {
       "title": "Chromium Blog",
