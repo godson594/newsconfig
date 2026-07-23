@@ -1,5 +1,5 @@
 {
-  "version": 5,
+  "version": 6,
   "thumbnailProxy": {
     "enabled": false,
     "baseUrl": "https://bknews-thumbs.blakekarnes.workers.dev",
@@ -442,6 +442,16 @@
       "title": "The Record",
       "topic": "CyberSec",
       "url": "https://therecord.media/feed/"
+    },
+    {
+      "title": "Cybersecurity Dive",
+      "topic": "CyberSec",
+      "url": "https://www.cybersecuritydive.com/feeds/news/"
+    },
+    {
+      "title": "SecurityWeek",
+      "topic": "CyberSec",
+      "url": "https://www.securityweek.com/feed/"
     },
     {
       "title": "NIST Cybersecurity Insights",
