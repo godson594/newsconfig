@@ -1,5 +1,5 @@
 {
-  "version": 7,
+  "version": 8,
   "thumbnailProxy": {
     "enabled": false,
     "baseUrl": "https://bknews-thumbs.blakekarnes.workers.dev",
@@ -536,7 +536,7 @@
     {
       "title": "New York Review of Books",
       "topic": "Culture",
-      "url": "https://www.nybooks.com/feed/"
+      "url": "https://feeds.feedburner.com/nybooks"
     },
     {
       "title": "Kill Six Billion Demons",
