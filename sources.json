@@ -1,5 +1,5 @@
 {
-  "version": 6,
+  "version": 7,
   "thumbnailProxy": {
     "enabled": false,
     "baseUrl": "https://bknews-thumbs.blakekarnes.workers.dev",
@@ -502,6 +502,46 @@
       "title": "Bitdefender Labs",
       "topic": "CyberSec",
       "url": "https://www.bitdefender.com/blog/api/rss/labs/"
+    },
+    {
+      "title": "Bandcamp Daily",
+      "topic": "Music",
+      "url": "https://daily.bandcamp.com/feed/"
+    },
+    {
+      "title": "Stereogum",
+      "topic": "Music",
+      "url": "https://stereogum.com/feed"
+    },
+    {
+      "title": "Xbox Wire",
+      "topic": "Gaming",
+      "url": "https://news.xbox.com/en-us/feed/"
+    },
+    {
+      "title": "Skinnytaste",
+      "topic": "Food",
+      "url": "https://www.skinnytaste.com/feed/"
+    },
+    {
+      "title": "/Film",
+      "topic": "Culture",
+      "url": "https://www.slashfilm.com/feed/"
+    },
+    {
+      "title": "The A.V. Club",
+      "topic": "Culture",
+      "url": "https://www.avclub.com/rss.xml"
+    },
+    {
+      "title": "New York Review of Books",
+      "topic": "Culture",
+      "url": "https://www.nybooks.com/feed/"
+    },
+    {
+      "title": "Kill Six Billion Demons",
+      "topic": "Comics",
+      "url": "https://killsixbilliondemons.com/feed/"
     }
   ]
 }
