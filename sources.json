@@ -1,5 +1,5 @@
 {
-  "version": 8,
+  "version": 9,
   "thumbnailProxy": {
     "enabled": false,
     "baseUrl": "https://bknews-thumbs.blakekarnes.workers.dev",
@@ -538,6 +538,102 @@
       "title": "New York Review of Books",
       "topic": "Culture",
       "url": "https://feeds.feedburner.com/nybooks"
+    },
+    {
+      "title": "Slate",
+      "topic": "News",
+      "url": "https://slate.com/feeds/all.rss",
+      "rolloutBatch": 1
+    },
+    {
+      "title": "Newsweek",
+      "topic": "News",
+      "url": "https://www.newsweek.com/rss",
+      "rolloutBatch": 1
+    },
+    {
+      "title": "Foreign Policy",
+      "topic": "News",
+      "url": "https://foreignpolicy.com/feed/",
+      "rolloutBatch": 1
+    },
+    {
+      "title": "The Dispatch",
+      "topic": "News",
+      "url": "https://thedispatch.com/feed/",
+      "rolloutBatch": 1
+    },
+    {
+      "title": "The New Republic",
+      "topic": "News",
+      "url": "https://newrepublic.com/rss.xml",
+      "rolloutBatch": 1
+    },
+    {
+      "title": "Mother Jones",
+      "topic": "News",
+      "url": "https://www.motherjones.com/feed/",
+      "rolloutBatch": 1
+    },
+    {
+      "title": "National Review",
+      "topic": "News",
+      "url": "https://www.nationalreview.com/feed/",
+      "rolloutBatch": 1
+    },
+    {
+      "title": "Smithsonian Magazine",
+      "topic": "Science",
+      "url": "https://www.smithsonianmag.com/rss/latest_articles/",
+      "rolloutBatch": 1
+    },
+    {
+      "title": "New Scientist",
+      "topic": "Science",
+      "url": "https://www.newscientist.com/feed/",
+      "rolloutBatch": 1
+    },
+    {
+      "title": "PCWorld",
+      "topic": "Tech",
+      "url": "https://www.pcworld.com/feed",
+      "rolloutBatch": 1
+    },
+    {
+      "title": "Car and Driver",
+      "topic": "Automotive",
+      "url": "https://www.caranddriver.com/rss/all.xml/",
+      "rolloutBatch": 1
+    },
+    {
+      "title": "The Hollywood Reporter",
+      "topic": "Celeb",
+      "url": "https://www.hollywoodreporter.com/feed/",
+      "rolloutBatch": 1
+    },
+    {
+      "title": "Architectural Digest",
+      "topic": "Interior design",
+      "url": "https://www.architecturaldigest.com/feed/rss",
+      "rolloutBatch": 1
+    },
+    {
+      "title": "Outside",
+      "topic": "Lifestyle",
+      "url": "https://www.outsideonline.com/feed/?scope=anon",
+      "rolloutBatch": 1
+    },
+    {
+      "title": "FORTUNE",
+      "topic": "Business",
+      "url": "https://fortune.com/feed/fortune-feeds/?id=3230629",
+      "rolloutBatch": 1
+    },
+    {
+      "title": "Taste of Home",
+      "topic": "Food",
+      "url": "https://www.tasteofhome.com/feed/",
+      "rolloutBatch": 1
     },
     {
       "title": "Kill Six Billion Demons",
