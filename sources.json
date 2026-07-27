@@ -1,5 +1,5 @@
 {
-  "version": 10,
+  "version": 11,
   "thumbnailProxy": {
     "enabled": false,
     "baseUrl": "https://bknews-thumbs.blakekarnes.workers.dev",
@@ -656,19 +656,19 @@
     {
       "title": "Bicycling",
       "topic": "Sports",
-      "url": "https://www.bicycling.com/rss/all.xml/",
+      "url": "https://news.google.com/rss/search?q=site%3Abicycling.com&hl=en-US&gl=US&ceid=US%3Aen",
       "rolloutBatch": 2
     },
     {
       "title": "Cosmopolitan",
       "topic": "Lifestyle",
-      "url": "https://www.cosmopolitan.com/rss/all.xml/",
+      "url": "https://news.google.com/rss/search?q=site%3Acosmopolitan.com&hl=en-US&gl=US&ceid=US%3Aen",
       "rolloutBatch": 2
     },
     {
       "title": "Country Living",
       "topic": "Interior design",
-      "url": "https://www.countryliving.com/rss/all.xml/",
+      "url": "https://news.google.com/rss/search?q=site%3Acountryliving.com&hl=en-US&gl=US&ceid=US%3Aen",
       "rolloutBatch": 2
     },
     {
@@ -686,7 +686,7 @@
     {
       "title": "Delish",
       "topic": "Food",
-      "url": "https://www.delish.com/rss/all.xml/",
+      "url": "https://news.google.com/rss/search?q=site%3Adelish.com&hl=en-US&gl=US&ceid=US%3Aen",
       "rolloutBatch": 2
     },
     {
@@ -698,13 +698,13 @@
     {
       "title": "Good Housekeeping",
       "topic": "Lifestyle",
-      "url": "https://www.goodhousekeeping.com/rss/all.xml/",
+      "url": "https://news.google.com/rss/search?q=site%3Agoodhousekeeping.com&hl=en-US&gl=US&ceid=US%3Aen",
       "rolloutBatch": 2
     },
     {
       "title": "Harper’s Bazaar",
       "topic": "Lifestyle",
-      "url": "https://www.harpersbazaar.com/rss/all.xml/",
+      "url": "https://news.google.com/rss/search?q=site%3Aharpersbazaar.com&hl=en-US&gl=US&ceid=US%3Aen",
       "rolloutBatch": 2
     },
     {
@@ -716,37 +716,37 @@
     {
       "title": "Men’s Health",
       "topic": "Health",
-      "url": "https://www.menshealth.com/rss/all.xml/",
+      "url": "https://news.google.com/rss/search?q=site%3Amenshealth.com&hl=en-US&gl=US&ceid=US%3Aen",
       "rolloutBatch": 2
     },
     {
       "title": "Oprah Daily",
       "topic": "Lifestyle",
-      "url": "https://www.oprahdaily.com/rss/all.xml/",
+      "url": "https://news.google.com/rss/search?q=site%3Aoprahdaily.com&hl=en-US&gl=US&ceid=US%3Aen",
       "rolloutBatch": 2
     },
     {
       "title": "Prevention",
       "topic": "Health",
-      "url": "https://www.prevention.com/rss/all.xml/",
+      "url": "https://news.google.com/rss/search?q=site%3Aprevention.com&hl=en-US&gl=US&ceid=US%3Aen",
       "rolloutBatch": 2
     },
     {
       "title": "Road & Track",
       "topic": "Automotive",
-      "url": "https://www.roadandtrack.com/rss/all.xml/",
+      "url": "https://news.google.com/rss/search?q=site%3Aroadandtrack.com&hl=en-US&gl=US&ceid=US%3Aen",
       "rolloutBatch": 2
     },
     {
       "title": "Runner’s World",
       "topic": "Sports",
-      "url": "https://www.runnersworld.com/rss/all.xml/",
+      "url": "https://news.google.com/rss/search?q=site%3Arunnersworld.com&hl=en-US&gl=US&ceid=US%3Aen",
       "rolloutBatch": 2
     },
     {
       "title": "Women’s Health",
       "topic": "Health",
-      "url": "https://www.womenshealthmag.com/rss/all.xml/",
+      "url": "https://news.google.com/rss/search?q=site%3Awomenshealthmag.com&hl=en-US&gl=US&ceid=US%3Aen",
       "rolloutBatch": 2
     },
     {
@@ -754,6 +754,126 @@
       "topic": "Lifestyle",
       "url": "https://wwd.com/feed/",
       "rolloutBatch": 2
+    },
+    {
+      "title": "Athlon Sports",
+      "topic": "Sports",
+      "url": "https://athlonsports.com/.rss/feed/9db4117d-e675-45b8-9cc8-fc643d436321.xml",
+      "rolloutBatch": 3
+    },
+    {
+      "title": "Digital Camera World",
+      "topic": "Design",
+      "url": "https://www.digitalcameraworld.com/feeds.xml",
+      "rolloutBatch": 3
+    },
+    {
+      "title": "Domino",
+      "topic": "Interior design",
+      "url": "https://www.domino.com/feed/",
+      "rolloutBatch": 3
+    },
+    {
+      "title": "ELLE DECOR",
+      "topic": "Interior design",
+      "url": "https://news.google.com/rss/search?q=site%3Aelledecor.com&hl=en-US&gl=US&ceid=US%3Aen",
+      "rolloutBatch": 3
+    },
+    {
+      "title": "Esquire",
+      "topic": "Lifestyle",
+      "url": "https://news.google.com/rss/search?q=site%3Aesquire.com&hl=en-US&gl=US&ceid=US%3Aen",
+      "rolloutBatch": 3
+    },
+    {
+      "title": "Garden & Gun",
+      "topic": "Travel",
+      "url": "https://gardenandgun.com/feed",
+      "rolloutBatch": 3
+    },
+    {
+      "title": "Golf.com",
+      "topic": "Sports",
+      "url": "https://golf.com/feed/",
+      "rolloutBatch": 3
+    },
+    {
+      "title": "Guitar World",
+      "topic": "Music",
+      "url": "https://www.guitarworld.com/feeds.xml",
+      "rolloutBatch": 3
+    },
+    {
+      "title": "House Beautiful",
+      "topic": "Interior design",
+      "url": "https://news.google.com/rss/search?q=site%3Ahousebeautiful.com&hl=en-US&gl=US&ceid=US%3Aen",
+      "rolloutBatch": 3
+    },
+    {
+      "title": "Puck",
+      "topic": "News",
+      "url": "https://puck.news/feed/",
+      "rolloutBatch": 3
+    },
+    {
+      "title": "RACER",
+      "topic": "Automotive",
+      "url": "https://racer.com/feed",
+      "rolloutBatch": 3
+    },
+    {
+      "title": "Robb Report",
+      "topic": "Lifestyle",
+      "url": "https://robbreport.com/feed/",
+      "rolloutBatch": 3
+    },
+    {
+      "title": "Stereophile",
+      "topic": "Music",
+      "url": "https://www.stereophile.com/rss.xml",
+      "rolloutBatch": 3
+    },
+    {
+      "title": "Sunset",
+      "topic": "Travel",
+      "url": "https://sunset.com/feed",
+      "rolloutBatch": 3
+    },
+    {
+      "title": "Texas Monthly",
+      "topic": "Travel",
+      "url": "https://www.texasmonthly.com/feed/",
+      "rolloutBatch": 3
+    },
+    {
+      "title": "The Family Handyman",
+      "topic": "Interior design",
+      "url": "https://www.familyhandyman.com/feed/",
+      "rolloutBatch": 3
+    },
+    {
+      "title": "The Pioneer Woman",
+      "topic": "Food",
+      "url": "https://news.google.com/rss/search?q=site%3Athepioneerwoman.com&hl=en-US&gl=US&ceid=US%3Aen",
+      "rolloutBatch": 3
+    },
+    {
+      "title": "The Walrus",
+      "topic": "Culture",
+      "url": "https://thewalrus.ca/feed/",
+      "rolloutBatch": 3
+    },
+    {
+      "title": "Town & Country",
+      "topic": "Lifestyle",
+      "url": "https://news.google.com/rss/search?q=site%3Atownandcountrymag.com&hl=en-US&gl=US&ceid=US%3Aen",
+      "rolloutBatch": 3
+    },
+    {
+      "title": "Wine Enthusiast",
+      "topic": "Food",
+      "url": "https://www.wineenthusiast.com/feed/",
+      "rolloutBatch": 3
     },
     {
       "title": "Kill Six Billion Demons",
