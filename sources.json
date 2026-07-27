@@ -1,5 +1,5 @@
 {
-  "version": 9,
+  "version": 10,
   "thumbnailProxy": {
     "enabled": false,
     "baseUrl": "https://bknews-thumbs.blakekarnes.workers.dev",
@@ -602,7 +602,7 @@
     {
       "title": "Car and Driver",
       "topic": "Automotive",
-      "url": "https://www.caranddriver.com/rss/all.xml/",
+      "url": "https://news.google.com/rss/search?q=site%3Acaranddriver.com&hl=en-US&gl=US&ceid=US%3Aen",
       "rolloutBatch": 1
     },
     {
@@ -634,6 +634,126 @@
       "topic": "Food",
       "url": "https://www.tasteofhome.com/feed/",
       "rolloutBatch": 1
+    },
+    {
+      "title": "ADWEEK",
+      "topic": "Business",
+      "url": "https://www.adweek.com/feed/",
+      "rolloutBatch": 2
+    },
+    {
+      "title": "Auto Express",
+      "topic": "Automotive",
+      "url": "https://www.autoexpress.co.uk/feed/all",
+      "rolloutBatch": 2
+    },
+    {
+      "title": "Autocar",
+      "topic": "Automotive",
+      "url": "https://www.autocar.co.uk/rss",
+      "rolloutBatch": 2
+    },
+    {
+      "title": "Bicycling",
+      "topic": "Sports",
+      "url": "https://www.bicycling.com/rss/all.xml/",
+      "rolloutBatch": 2
+    },
+    {
+      "title": "Cosmopolitan",
+      "topic": "Lifestyle",
+      "url": "https://www.cosmopolitan.com/rss/all.xml/",
+      "rolloutBatch": 2
+    },
+    {
+      "title": "Country Living",
+      "topic": "Interior design",
+      "url": "https://www.countryliving.com/rss/all.xml/",
+      "rolloutBatch": 2
+    },
+    {
+      "title": "Cyclingnews",
+      "topic": "Sports",
+      "url": "https://www.cyclingnews.com/feeds.xml",
+      "rolloutBatch": 2
+    },
+    {
+      "title": "Defector",
+      "topic": "Sports",
+      "url": "https://defector.com/feed",
+      "rolloutBatch": 2
+    },
+    {
+      "title": "Delish",
+      "topic": "Food",
+      "url": "https://www.delish.com/rss/all.xml/",
+      "rolloutBatch": 2
+    },
+    {
+      "title": "ESSENCE",
+      "topic": "Lifestyle",
+      "url": "https://www.essence.com/feed/",
+      "rolloutBatch": 2
+    },
+    {
+      "title": "Good Housekeeping",
+      "topic": "Lifestyle",
+      "url": "https://www.goodhousekeeping.com/rss/all.xml/",
+      "rolloutBatch": 2
+    },
+    {
+      "title": "Harper’s Bazaar",
+      "topic": "Lifestyle",
+      "url": "https://www.harpersbazaar.com/rss/all.xml/",
+      "rolloutBatch": 2
+    },
+    {
+      "title": "Kiplinger",
+      "topic": "Business",
+      "url": "https://www.kiplinger.com/feed/all",
+      "rolloutBatch": 2
+    },
+    {
+      "title": "Men’s Health",
+      "topic": "Health",
+      "url": "https://www.menshealth.com/rss/all.xml/",
+      "rolloutBatch": 2
+    },
+    {
+      "title": "Oprah Daily",
+      "topic": "Lifestyle",
+      "url": "https://www.oprahdaily.com/rss/all.xml/",
+      "rolloutBatch": 2
+    },
+    {
+      "title": "Prevention",
+      "topic": "Health",
+      "url": "https://www.prevention.com/rss/all.xml/",
+      "rolloutBatch": 2
+    },
+    {
+      "title": "Road & Track",
+      "topic": "Automotive",
+      "url": "https://www.roadandtrack.com/rss/all.xml/",
+      "rolloutBatch": 2
+    },
+    {
+      "title": "Runner’s World",
+      "topic": "Sports",
+      "url": "https://www.runnersworld.com/rss/all.xml/",
+      "rolloutBatch": 2
+    },
+    {
+      "title": "Women’s Health",
+      "topic": "Health",
+      "url": "https://www.womenshealthmag.com/rss/all.xml/",
+      "rolloutBatch": 2
+    },
+    {
+      "title": "WWD",
+      "topic": "Lifestyle",
+      "url": "https://wwd.com/feed/",
+      "rolloutBatch": 2
     },
     {
       "title": "Kill Six Billion Demons",
