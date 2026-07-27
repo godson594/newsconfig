@@ -1,5 +1,5 @@
 {
-  "version": 11,
+  "version": 12,
   "thumbnailProxy": {
     "enabled": false,
     "baseUrl": "https://bknews-thumbs.blakekarnes.workers.dev",
@@ -13,6 +13,40 @@
     "timeoutSeconds": 30,
     "limit": 200
   },
+  "rolloutHolds": [
+    {
+      "reason": "publisher_content_length_mismatch_breaks_native_reader",
+      "titles": [
+        "Bicycling",
+        "Car and Driver",
+        "Cosmopolitan",
+        "Country Living",
+        "Delish",
+        "ELLE DECOR",
+        "Esquire",
+        "Good Housekeeping",
+        "Harper’s Bazaar",
+        "House Beautiful",
+        "Men’s Health",
+        "Oprah Daily",
+        "Prevention",
+        "Road & Track",
+        "Runner’s World",
+        "The Pioneer Woman",
+        "Town & Country",
+        "Women’s Health"
+      ]
+    },
+    {
+      "reason": "three_article_reader_or_thumbnail_audit_failed",
+      "titles": [
+        "Autocar",
+        "National Review",
+        "Puck",
+        "Stereophile"
+      ]
+    }
+  ],
   "heroBlockRules": [
     {
       "linkContains": "road-to-ufc-season-5-results-scorecards",
@@ -135,7 +169,29 @@
     "Google News Business",
     "Google News Technology",
     "Popular Mechanics",
-    "The Hill"
+    "The Hill",
+    "Autocar",
+    "Bicycling",
+    "Car and Driver",
+    "Cosmopolitan",
+    "Country Living",
+    "Delish",
+    "ELLE DECOR",
+    "Esquire",
+    "Good Housekeeping",
+    "Harper’s Bazaar",
+    "House Beautiful",
+    "Men’s Health",
+    "National Review",
+    "Oprah Daily",
+    "Prevention",
+    "Puck",
+    "Road & Track",
+    "Runner’s World",
+    "Stereophile",
+    "The Pioneer Woman",
+    "Town & Country",
+    "Women’s Health"
   ],
   "overrides": [
     {
