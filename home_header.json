@@ -1,5 +1,6 @@
 {
   "version": 1,
+  "greetingHeaderEnabled": true,
   "headers": [
     {
       "id": "memorial-day-2026",

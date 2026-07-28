@@ -13,6 +13,86 @@
     "timeoutSeconds": 30,
     "limit": 200
   },
+  "appPolicy": {
+    "schemaVersion": 1,
+    "revision": 1,
+    "generatedAt": "2026-07-28T18:00:00Z",
+    "rollout": {
+      "percentage": 100,
+      "salt": "launch-policy-v1"
+    },
+    "features": {
+      "hero": true,
+      "briefing": true,
+      "fullCoverage": true,
+      "sectionSpotlights": true,
+      "pairedCards": true,
+      "trending": true,
+      "localNews": true,
+      "onThisDay": true,
+      "otter2048": true,
+      "readerAudio": true,
+      "translation": true,
+      "sponsoredStories": false
+    },
+    "feedComposition": {
+      "maxConsecutiveSource": 2,
+      "maxConsecutiveCategory": 3,
+      "sourceWindowSize": 20,
+      "maxPerSourceInWindow": 4,
+      "localMaxPerSource": 6,
+      "localMaximumAgeHours": 48,
+      "largeCardsRequireImage": true
+    },
+    "presentation": {
+      "sectionLeadInsertPositions": [
+        10,
+        22,
+        34,
+        46,
+        58,
+        70,
+        82,
+        94,
+        106,
+        118,
+        130,
+        142,
+        154,
+        166,
+        178
+      ],
+      "feedCardInsertPositions": [
+        6,
+        12,
+        18,
+        24,
+        30
+      ],
+      "trendingInsertPosition": 24,
+      "pairCadence": 6,
+      "defaultNavigationBarSize": "default",
+      "defaultNavigationBarAutoHide": true,
+      "defaultIpadNavigationStyle": "sidebar",
+      "defaultIpadFeedLayout": "magazine",
+      "sectionSpotlightExcludedCategories": [
+        "News",
+        "Local",
+        "Comics",
+        "Deals"
+      ]
+    },
+    "performance": {
+      "initialDisplayedCount": 40,
+      "loadMoreBatchSize": 14,
+      "cacheFreshnessMinutes": 15,
+      "launchRefreshFreshnessMinutes": 5,
+      "foregroundRefreshFreshnessMinutes": 5,
+      "activeFeedRefreshMinutes": 5,
+      "onDeviceReloadSeconds": 90
+    },
+    "messages": []
+  },
   "rolloutHolds": [
     {
       "reason": "publisher_content_length_mismatch_breaks_native_reader",
