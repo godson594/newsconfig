@@ -1,5 +1,5 @@
 {
-  "version": 13,
+  "version": 14,
   "thumbnailProxy": {
     "enabled": false,
     "baseUrl": "https://bknews-thumbs.blakekarnes.workers.dev",
@@ -1015,11 +1015,6 @@
       "title": "Kill Six Billion Demons",
       "topic": "Comics",
       "url": "https://killsixbilliondemons.com/feed/"
-    },
-    {
-      "title": "Los Angeles Times",
-      "topic": "News",
-      "url": "https://www.latimes.com/news/rss2.0.xml"
     },
     {
       "title": "CryptoSlate",
