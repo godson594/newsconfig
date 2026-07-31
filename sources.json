@@ -15,8 +15,8 @@
   },
   "appPolicy": {
     "schemaVersion": 1,
-    "revision": 1,
-    "generatedAt": "2026-07-28T18:00:00Z",
+    "revision": 2,
+    "generatedAt": "2026-07-31T18:20:00Z",
     "rollout": {
       "percentage": 100,
       "salt": "launch-policy-v1"
@@ -33,7 +33,8 @@
       "otter2048": true,
       "readerAudio": true,
       "translation": true,
-      "sponsoredStories": false
+      "sponsoredStories": false,
+      "sectionLeadZoom": false
     },
     "feedComposition": {
       "maxConsecutiveSource": 2,
