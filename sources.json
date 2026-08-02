@@ -1,5 +1,5 @@
 {
-  "version": 14,
+  "version": 15,
   "thumbnailProxy": {
     "enabled": false,
     "baseUrl": "https://bknews-thumbs.blakekarnes.workers.dev",
@@ -1025,6 +1025,24 @@
       "title": "CryptoBriefing",
       "topic": "Crypto",
       "url": "https://cryptobriefing.com/feed/"
+    },
+    {
+      "title": "NewsNation",
+      "topic": "News",
+      "url": "https://www.newsnationnow.com/feed/",
+      "rolloutBatch": 4
+    },
+    {
+      "title": "Straight Arrow News",
+      "topic": "News",
+      "url": "https://san.com/feed/",
+      "rolloutBatch": 4
+    },
+    {
+      "title": "Washington Examiner",
+      "topic": "Politics",
+      "url": "https://www.washingtonexaminer.com/feed",
+      "rolloutBatch": 4
     }
   ]
 }

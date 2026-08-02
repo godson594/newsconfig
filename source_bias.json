@@ -1,6 +1,6 @@
 {
-  "version": 1,
-  "updatedAt": "2026-07-09",
+  "version": 2,
+  "updatedAt": "2026-08-02",
   "disclaimer": "Lean reflects consensus third-party media-bias assessments (AllSides, MBFC, Ad Fontes) of the OUTLET's overall perspective - not a judgment of any single article. Unlisted sources are unrated.",
   "reviewNote": "OWNER REVIEW PENDING: starter dataset drafted from public consensus ratings; adjust before user-facing launch.",
   "leans": ["left", "lean-left", "center", "lean-right", "right"],
@@ -43,6 +43,8 @@
     "Business Insider": "lean-left",
     "USA Today": "lean-left",
     "Newsweek": "center",
+    "NewsNation": "center",
+    "Straight Arrow News": "center",
     "Fox Business": "lean-right",
     "New York Post": "lean-right",
     "Washington Examiner": "lean-right",
