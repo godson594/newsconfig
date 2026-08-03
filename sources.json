@@ -1,5 +1,5 @@
 {
-  "version": 16,
+  "version": 17,
   "thumbnailProxy": {
     "enabled": false,
     "baseUrl": "https://bknews-thumbs.blakekarnes.workers.dev",
@@ -1196,11 +1196,6 @@
       "title": "Skift",
       "topic": "Travel",
       "url": "https://skift.com/feed/"
-    },
-    {
-      "title": "Fodor's Travel",
-      "topic": "Travel",
-      "url": "https://www.fodors.com/feed"
     },
     {
       "title": "Matador Network",
