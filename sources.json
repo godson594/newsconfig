@@ -1,5 +1,5 @@
 {
-  "version": 15,
+  "version": 16,
   "thumbnailProxy": {
     "enabled": false,
     "baseUrl": "https://bknews-thumbs.blakekarnes.workers.dev",
@@ -297,6 +297,14 @@
     {
       "matchTitle": "chRyNaN Codes",
       "topic": "Dev"
+    },
+    {
+      "matchTitle": "Yanko Design",
+      "topic": "Design"
+    },
+    {
+      "matchTitle": "designboom Design",
+      "topic": "Design"
     }
   ],
   "additions": [
@@ -1043,6 +1051,161 @@
       "topic": "Politics",
       "url": "https://www.washingtonexaminer.com/feed",
       "rolloutBatch": 4
+    },
+    {
+      "title": "HousingWire",
+      "topic": "Real Estate",
+      "url": "https://www.housingwire.com/feed/"
+    },
+    {
+      "title": "Redfin News",
+      "topic": "Real Estate",
+      "url": "https://www.redfin.com/news/feed/"
+    },
+    {
+      "title": "Zillow Research",
+      "topic": "Real Estate",
+      "url": "https://www.zillow.com/research/feed/"
+    },
+    {
+      "title": "Mortgage News Daily",
+      "topic": "Real Estate",
+      "url": "https://www.mortgagenewsdaily.com/rss/news"
+    },
+    {
+      "title": "Breaking Defense",
+      "topic": "Military",
+      "url": "https://breakingdefense.com/feed/"
+    },
+    {
+      "title": "Defense News",
+      "topic": "Military",
+      "url": "https://www.defensenews.com/arc/outboundfeeds/rss/"
+    },
+    {
+      "title": "USNI News",
+      "topic": "Military",
+      "url": "https://news.usni.org/feed"
+    },
+    {
+      "title": "Military Times",
+      "topic": "Military",
+      "url": "https://www.militarytimes.com/arc/outboundfeeds/rss/"
+    },
+    {
+      "title": "The War Zone",
+      "topic": "Military",
+      "url": "https://www.twz.com/feed"
+    },
+    {
+      "title": "Outdoor Life",
+      "topic": "Firearms",
+      "url": "https://www.outdoorlife.com/feed/"
+    },
+    {
+      "title": "RECOIL",
+      "topic": "Firearms",
+      "url": "https://www.recoilweb.com/feed"
+    },
+    {
+      "title": "Shooting Sports USA",
+      "topic": "Firearms",
+      "url": "https://www.ssusa.org/rss/"
+    },
+    {
+      "title": "The Beat",
+      "topic": "Comics",
+      "url": "https://www.comicsbeat.com/feed/"
+    },
+    {
+      "title": "AIPT Comics",
+      "topic": "Comics",
+      "url": "https://aiptcomics.com/feed/"
+    },
+    {
+      "title": "The Comics Journal",
+      "topic": "Comics",
+      "url": "https://www.tcj.com/feed/"
+    },
+    {
+      "title": "Broken Frontier",
+      "topic": "Comics",
+      "url": "https://www.brokenfrontier.com/feed/"
+    },
+    {
+      "title": "Wallpaper",
+      "topic": "Design",
+      "url": "https://www.wallpaper.com/feeds.xml"
+    },
+    {
+      "title": "Abduzeedo",
+      "topic": "Design",
+      "url": "https://abduzeedo.com/rss.xml"
+    },
+    {
+      "title": "BBC Good Food",
+      "topic": "Food",
+      "url": "https://www.bbcgoodfood.com/feed"
+    },
+    {
+      "title": "SAVEUR",
+      "topic": "Food",
+      "url": "https://www.saveur.com/feed/"
+    },
+    {
+      "title": "RecipeTin Eats",
+      "topic": "Food",
+      "url": "https://www.recipetineats.com/feed/"
+    },
+    {
+      "title": "Homes & Gardens",
+      "topic": "Interior design",
+      "url": "https://www.homesandgardens.com/feeds.xml"
+    },
+    {
+      "title": "Remodelista",
+      "topic": "Interior design",
+      "url": "https://www.remodelista.com/feed/"
+    },
+    {
+      "title": "Emily Henderson",
+      "topic": "Interior design",
+      "url": "https://stylebyemilyhenderson.com/feed"
+    },
+    {
+      "title": "Carscoops",
+      "topic": "Automotive",
+      "url": "https://www.carscoops.com/feed/"
+    },
+    {
+      "title": "Jalopnik",
+      "topic": "Automotive",
+      "url": "https://www.jalopnik.com/feed/"
+    },
+    {
+      "title": "NPR Health",
+      "topic": "Health",
+      "url": "https://feeds.npr.org/1128/rss.xml"
+    },
+    {
+      "title": "MedPage Today",
+      "topic": "Health",
+      "url": "https://www.medpagetoday.com/rss/headlines.xml"
+    },
+    {
+      "title": "Skift",
+      "topic": "Travel",
+      "url": "https://skift.com/feed/"
+    },
+    {
+      "title": "Fodor's Travel",
+      "topic": "Travel",
+      "url": "https://www.fodors.com/feed"
+    },
+    {
+      "title": "Matador Network",
+      "topic": "Travel",
+      "url": "https://matadornetwork.com/feed/"
     }
   ]
 }
