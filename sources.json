@@ -1,5 +1,5 @@
 {
-  "version": 17,
+  "version": 18,
   "thumbnailProxy": {
     "enabled": false,
     "baseUrl": "https://bknews-thumbs.blakekarnes.workers.dev",
@@ -247,6 +247,11 @@
       "name": "Deals",
       "icon": "tag",
       "color": "#FF8A3D"
+    },
+    {
+      "name": "Mexico",
+      "icon": "globe",
+      "color": "#006847"
     }
   ],
   "disableTitles": [
@@ -1212,6 +1217,36 @@
       "title": "Matador Network",
       "topic": "Travel",
       "url": "https://matadornetwork.com/feed/"
+    },
+    {
+      "title": "Vanguardia MX",
+      "topic": "Mexico",
+      "url": "https://vanguardia.com.mx/rss.xml"
+    },
+    {
+      "title": "El Informador",
+      "topic": "Mexico",
+      "url": "https://www.informador.mx/rss/mexico.xml"
+    },
+    {
+      "title": "El Imparcial de Oaxaca",
+      "topic": "Mexico",
+      "url": "https://imparcialoaxaca.mx/feed/"
+    },
+    {
+      "title": "Plaza Juárez",
+      "topic": "Mexico",
+      "url": "https://plazajuarez.mx/feed/"
+    },
+    {
+      "title": "SDP Noticias",
+      "topic": "Mexico",
+      "url": "https://www.sdpnoticias.com/arc/outboundfeeds/rss/?outputType=xml"
+    },
+    {
+      "title": "Diario de Yucatán",
+      "topic": "Mexico",
+      "url": "https://www.yucatan.com.mx/feed/"
     }
   ]
 }
