@@ -15,8 +15,8 @@
   },
   "appPolicy": {
     "schemaVersion": 1,
-    "revision": 6,
-    "generatedAt": "2026-08-09T04:43:58Z",
+    "revision": 7,
+    "generatedAt": "2026-08-09T04:56:58Z",
     "rollout": {
       "percentage": 100,
       "salt": "launch-policy-v1"
@@ -97,7 +97,7 @@
         "title": "Remote messages are working",
         "body": "This test message was sent remotely to verify the blue notification dot and Otter update card on your device.",
         "minAppBuild": 495,
-        "maxAppBuild": 495,
+        "maxAppBuild": 496,
         "startAt": "2026-08-09T04:43:58Z",
         "endAt": "2026-08-10T04:43:58Z",
         "enabled": true
