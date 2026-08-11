@@ -1,5 +1,5 @@
 {
-  "version": 19,
+  "version": 20,
   "thumbnailProxy": {
     "enabled": false,
     "baseUrl": "https://bknews-thumbs.blakekarnes.workers.dev",
@@ -1289,9 +1289,9 @@
       "url": "https://www.elfinanciero.com.mx/arc/outboundfeeds/rss/?outputType=xml"
     },
     {
-      "title": "Excélsior",
+      "title": "El Economista",
       "topic": "Mexico",
-      "url": "https://www.excelsior.com.mx/rss"
+      "url": "https://www.eleconomista.com.mx/rss/ultimas-noticias"
     }
   ]
 }
