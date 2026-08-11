@@ -1,5 +1,5 @@
 {
-  "version": 18,
+  "version": 19,
   "thumbnailProxy": {
     "enabled": false,
     "baseUrl": "https://bknews-thumbs.blakekarnes.workers.dev",
@@ -1247,6 +1247,51 @@
       "title": "Diario de Yucatán",
       "topic": "Mexico",
       "url": "https://www.yucatan.com.mx/feed/"
+    },
+    {
+      "title": "The Conversation US",
+      "topic": "News",
+      "url": "https://theconversation.com/us/articles.atom"
+    },
+    {
+      "title": "Rest of World",
+      "topic": "Tech",
+      "url": "https://restofworld.org/feed/latest/"
+    },
+    {
+      "title": "Grist",
+      "topic": "Science",
+      "url": "https://grist.org/feed/"
+    },
+    {
+      "title": "NASA News Releases",
+      "topic": "Science",
+      "url": "https://www.nasa.gov/news-release/feed/"
+    },
+    {
+      "title": "NPR Music",
+      "topic": "Music",
+      "url": "https://feeds.npr.org/1039/rss.xml"
+    },
+    {
+      "title": "Consequence",
+      "topic": "Music",
+      "url": "https://consequence.net/feed/"
+    },
+    {
+      "title": "El Universal",
+      "topic": "Mexico",
+      "url": "https://www.eluniversal.com.mx/arc/outboundfeeds/rss/?outputType=xml"
+    },
+    {
+      "title": "El Financiero",
+      "topic": "Mexico",
+      "url": "https://www.elfinanciero.com.mx/arc/outboundfeeds/rss/?outputType=xml"
+    },
+    {
+      "title": "Excélsior",
+      "topic": "Mexico",
+      "url": "https://www.excelsior.com.mx/rss"
     }
   ]
 }
