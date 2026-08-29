@@ -1,5 +1,5 @@
 {
-  "version": 20,
+  "version": 21,
   "thumbnailProxy": {
     "enabled": false,
     "baseUrl": "https://bknews-thumbs.blakekarnes.workers.dev",
@@ -1292,6 +1292,76 @@
       "title": "El Economista",
       "topic": "Mexico",
       "url": "https://www.eleconomista.com.mx/rss/ultimas-noticias"
+    },
+    {
+      "title": "Google AI Blog",
+      "topic": "AI",
+      "url": "https://blog.google/technology/ai/rss/"
+    },
+    {
+      "title": "NVIDIA Blog",
+      "topic": "AI",
+      "url": "https://blogs.nvidia.com/feed/"
+    },
+    {
+      "title": "Android Authority",
+      "topic": "Tech",
+      "url": "https://www.androidauthority.com/feed/"
+    },
+    {
+      "title": "Android Police",
+      "topic": "Tech",
+      "url": "https://www.androidpolice.com/feed/"
+    },
+    {
+      "title": "Science News",
+      "topic": "Science",
+      "url": "https://www.sciencenews.org/feed"
+    },
+    {
+      "title": "Phys.org",
+      "topic": "Science",
+      "url": "https://phys.org/rss-feed/"
+    },
+    {
+      "title": "European Space Agency",
+      "topic": "Science",
+      "url": "https://www.esa.int/rssfeed/Our_Activities"
+    },
+    {
+      "title": "InsideEVs",
+      "topic": "Automotive",
+      "url": "https://insideevs.com/rss/news/all/"
+    },
+    {
+      "title": "The Drive",
+      "topic": "Automotive",
+      "url": "https://www.thedrive.com/feed"
+    },
+    {
+      "title": "Guardian Football",
+      "topic": "Sports",
+      "url": "https://www.theguardian.com/football/rss"
+    },
+    {
+      "title": "BBC News - US & Canada",
+      "topic": "News",
+      "url": "https://feeds.bbci.co.uk/news/world/us_and_canada/rss.xml"
+    },
+    {
+      "title": "PBS NewsHour",
+      "topic": "News",
+      "url": "https://www.pbs.org/newshour/feeds/rss/headlines"
+    },
+    {
+      "title": "Guardian Environment",
+      "topic": "Science",
+      "url": "https://www.theguardian.com/environment/rss"
+    },
+    {
+      "title": "NYT Technology",
+      "topic": "Tech",
+      "url": "https://rss.nytimes.com/services/xml/rss/nyt/Technology.xml"
     }
   ]
 }
