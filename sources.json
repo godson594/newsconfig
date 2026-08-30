@@ -1,5 +1,5 @@
 {
-  "version": 22,
+  "version": 23,
   "thumbnailProxy": {
     "enabled": false,
     "baseUrl": "https://bknews-thumbs.blakekarnes.workers.dev",
@@ -1407,6 +1407,146 @@
       "title": "The Hockey News",
       "topic": "Sports",
       "url": "https://thehockeynews.com/.rss/full/"
+    },
+    {
+      "title": "Billboard Pop",
+      "topic": "Music",
+      "url": "https://www.billboard.com/c/music/pop/feed/"
+    },
+    {
+      "title": "Hip-Hop Wired",
+      "topic": "Music",
+      "url": "https://hiphopwired.com/feed/"
+    },
+    {
+      "title": "The Source Hip-Hop",
+      "topic": "Music",
+      "url": "https://thesource.com/feed/"
+    },
+    {
+      "title": "Billboard Country",
+      "topic": "Music",
+      "url": "https://www.billboard.com/c/music/country/feed/"
+    },
+    {
+      "title": "Saving Country Music",
+      "topic": "Music",
+      "url": "https://savingcountrymusic.com/feed/"
+    },
+    {
+      "title": "Rated R&B",
+      "topic": "Music",
+      "url": "https://ratedrnb.com/feed/"
+    },
+    {
+      "title": "ThisIsRnB R&B",
+      "topic": "Music",
+      "url": "https://thisisrnb.com/feed/"
+    },
+    {
+      "title": "DJ Mag Electronic",
+      "topic": "Music",
+      "url": "https://djmag.com/rss.xml"
+    },
+    {
+      "title": "Billboard Rock",
+      "topic": "Music",
+      "url": "https://www.billboard.com/c/music/rock/feed/"
+    },
+    {
+      "title": "Jazz Journal",
+      "topic": "Music",
+      "url": "https://jazzjournal.co.uk/feed/"
+    },
+    {
+      "title": "NME K-Pop",
+      "topic": "Music",
+      "url": "https://www.nme.com/tag/k-pop/feed"
+    },
+    {
+      "title": "Rolling Stone Latin",
+      "topic": "Music",
+      "url": "https://www.rollingstone.com/music/music-latin/feed/"
+    },
+    {
+      "title": "Monitor Latino",
+      "topic": "Music",
+      "url": "https://monitorlatino.com/feed/"
+    },
+    {
+      "title": "ESPN NFL",
+      "topic": "Sports",
+      "url": "https://www.espn.com/espn/rss/nfl/news"
+    },
+    {
+      "title": "ESPN NBA",
+      "topic": "Sports",
+      "url": "https://www.espn.com/espn/rss/nba/news"
+    },
+    {
+      "title": "ESPN WNBA",
+      "topic": "Sports",
+      "url": "https://www.espn.com/espn/rss/wnba/news"
+    },
+    {
+      "title": "ESPN MLB",
+      "topic": "Sports",
+      "url": "https://www.espn.com/espn/rss/mlb/news"
+    },
+    {
+      "title": "MLB News",
+      "topic": "Sports",
+      "url": "https://www.mlb.com/feeds/news/rss.xml"
+    },
+    {
+      "title": "Baseball America",
+      "topic": "Sports",
+      "url": "https://www.baseballamerica.com/feed/"
+    },
+    {
+      "title": "ESPN NHL",
+      "topic": "Sports",
+      "url": "https://www.espn.com/espn/rss/nhl/news"
+    },
+    {
+      "title": "ESPN Soccer",
+      "topic": "Sports",
+      "url": "https://www.espn.com/espn/rss/soccer/news"
+    },
+    {
+      "title": "BBC Sport Soccer",
+      "topic": "Sports",
+      "url": "https://feeds.bbci.co.uk/sport/football/rss.xml"
+    },
+    {
+      "title": "ESPN Tennis",
+      "topic": "Sports",
+      "url": "https://www.espn.com/espn/rss/tennis/news"
+    },
+    {
+      "title": "BBC Sport Tennis",
+      "topic": "Sports",
+      "url": "https://feeds.bbci.co.uk/sport/tennis/rss.xml"
+    },
+    {
+      "title": "ESPN Golf",
+      "topic": "Sports",
+      "url": "https://www.espn.com/espn/rss/golf/news"
+    },
+    {
+      "title": "BBC Sport Golf",
+      "topic": "Sports",
+      "url": "https://feeds.bbci.co.uk/sport/golf/rss.xml"
+    },
+    {
+      "title": "ESPN College Football",
+      "topic": "Sports",
+      "url": "https://www.espn.com/espn/rss/ncf/news"
+    },
+    {
+      "title": "ESPN NCAA College Basketball",
+      "topic": "Sports",
+      "url": "https://www.espn.com/espn/rss/ncb/news"
     }
   ]
 }
