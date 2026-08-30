@@ -21,89 +21,147 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
-  audit:
+  validate:
     runs-on: ubuntu-latest
-    timeout-minutes: 30
-    env:
-      READER_AUDIT_ARTICLES_PER_SOURCE: "3"
-      READER_AUDIT_FEED_CONCURRENCY: "10"
-      READER_AUDIT_ARTICLE_CONCURRENCY: "10"
-      READER_AUDIT_TIMEOUT_MINUTES: "22"
-      READER_AUDIT_STALE_FEED_DAYS: "30"
-      READER_AUDIT_OUTPUT_DIR: build/reader_audit
-      READER_AUDIT_CATALOG_CONFIG_FILE: ../../config/sources.json
-      READER_AUDIT_STRICT: "true"
-      READER_AUDIT_INCLUDE_WEBVIEW_ONLY: "true"
+    timeout-minutes: 5
 
     steps:
       - name: Check out source configuration
         uses: actions/checkout@v4
-        with:
-          path: config
 
-      - name: Check out Otter application audit tools
-        uses: actions/checkout@v4
-        with:
-          repository: godson594/bknews
-          ref: 1ba2a8e4fa56829460b847361932aa4188586fd7
-          path: app
+      - name: Validate JSON
+        run: python3 -m json.tool sources.json >/dev/null
 
-      - name: Set up Flutter
-        uses: subosito/flutter-action@v2
-        with:
-          flutter-version: 3.41.4
-          channel: stable
-          cache: true
-
-      - name: Install audit dependencies
-        working-directory: app/rss_news_reader
-        run: flutter pub get
-
-      - name: Validate source configuration
-        run: python3 -m json.tool config/sources.json >/dev/null
-
-      - name: Audit every enabled source and recent article
-        working-directory: app/rss_news_reader
-        run: bash ./tool/reader_audit.sh
-
-      - name: Enforce category depth and Reader experience
-        working-directory: app/rss_news_reader
+      - name: Enforce catalog structure and depth
         run: |
-          report=build/reader_audit/reader_audit_latest.json
-          jq -e '
-            [
-              .articles[]
-              | select(.category != "Regression")
-              | {category, source}
-            ]
-            | unique
-            | group_by(.category)
-            | map({category: .[0].category, sourceCount: length}) as $categories
-            | ($categories | length) == 30
-              and all($categories[]; .sourceCount >= 5)
-          ' "$report"
-          jq -e '
-            all(
-              .articles[].issues[]?;
-              .code != "thin_webview_shell"
-            )
-          ' "$report"
+          python3 - <<'PY'
+          import collections
+          import json
+          from urllib.parse import urlparse
 
-      - name: Publish audit summary
-        if: always()
-        working-directory: app/rss_news_reader
+          with open("sources.json", encoding="utf-8") as handle:
+              catalog = json.load(handle)
+
+          assert isinstance(catalog.get("version"), int) and catalog["version"] > 0
+
+          canonical_topics = {
+              "AI", "Automotive", "Boxing", "Business", "Celeb", "Comics",
+              "Crypto", "Culture", "CyberSec", "Deals", "Design", "Dev",
+              "Firearms", "Food", "Gaming", "Health", "Interior design",
+              "Japan", "Lifestyle", "MMA", "Mexico", "Military", "Music",
+              "News", "Politics", "Real Estate", "Science", "Sports", "Tech",
+              "Travel",
+          }
+          assert len(canonical_topics) == 30
+
+          categories = catalog.get("categories")
+          assert isinstance(categories, list)
+          category_names = [item.get("name", "").strip() for item in categories]
+          assert all(category_names), "Every category needs a name"
+          assert len({name.casefold() for name in category_names}) == len(category_names)
+          assert set(category_names) <= canonical_topics, (
+              "Category presentation overrides contain an unknown topic"
+          )
+          allowed_topics = canonical_topics
+
+          additions = catalog.get("additions")
+          assert isinstance(additions, list) and len(additions) >= 200
+          required_fields = ("title", "topic", "url")
+          for index, feed in enumerate(additions):
+              assert isinstance(feed, dict), f"Addition {index} must be an object"
+              for field in required_fields:
+                  value = feed.get(field)
+                  assert isinstance(value, str) and value.strip(), (
+                      f"Addition {index} has no usable {field}"
+                  )
+              assert feed["topic"] in allowed_topics, (
+                  f"Unknown topic {feed['topic']!r} for {feed['title']!r}"
+              )
+              parsed = urlparse(feed["url"])
+              assert parsed.scheme in {"http", "https"} and parsed.netloc, (
+                  f"Invalid feed URL for {feed['title']!r}"
+              )
+
+          disabled_titles = catalog.get("disableTitles", [])
+          assert isinstance(disabled_titles, list)
+          disabled_keys = [title.strip().casefold() for title in disabled_titles]
+          assert all(disabled_keys), "Disabled titles cannot be blank"
+          assert len(disabled_keys) == len(set(disabled_keys)), (
+              "Disabled titles contain a case-insensitive duplicate"
+          )
+          disabled = set(disabled_keys)
+
+          active = [
+              feed
+              for feed in additions
+              if feed["title"].strip().casefold() not in disabled
+          ]
+          assert len(active) >= 200, "Remote catalog depth unexpectedly collapsed"
+          represented_topics = {feed["topic"] for feed in active}
+          assert len(represented_topics) >= 25, (
+              "Remote additions unexpectedly lost broad category coverage"
+          )
+
+          duplicate_checks = {
+              "title/topic": [
+                  (feed["title"].strip().casefold(), feed["topic"].casefold())
+                  for feed in active
+              ],
+              "url/topic": [
+                  (feed["url"].rstrip("/").casefold(), feed["topic"].casefold())
+                  for feed in active
+              ],
+          }
+          for label, values in duplicate_checks.items():
+              duplicates = [
+                  value
+                  for value, count in collections.Counter(values).items()
+                  if count > 1
+              ]
+              assert not duplicates, f"Duplicate active {label}: {duplicates[:5]}"
+
+          overrides = catalog.get("overrides", [])
+          assert isinstance(overrides, list)
+          for index, override in enumerate(overrides):
+              assert isinstance(override, dict)
+              match_title = override.get("matchTitle")
+              assert isinstance(match_title, str) and match_title.strip(), (
+                  f"Override {index} needs matchTitle"
+              )
+              topic = override.get("topic")
+              assert topic is None or topic in allowed_topics, (
+                  f"Override {match_title!r} uses unknown topic {topic!r}"
+              )
+
+          print(
+              f"catalog v{catalog['version']}: {len(active)} active remote feeds "
+              f"across {len(represented_topics)} topics"
+          )
+          PY
+
+      - name: Publish validation summary
         run: |
-          if [[ -f build/reader_audit/reader_audit_latest.md ]]; then
-            cat build/reader_audit/reader_audit_latest.md >> "$GITHUB_STEP_SUMMARY"
-          fi
+          python3 - <<'PY' >> "$GITHUB_STEP_SUMMARY"
+          import json
 
-      - name: Preserve the report
-        if: always()
-        uses: actions/upload-artifact@v4
-        with:
-          name: source-catalog-preflight
-          path: |
-            app/rss_news_reader/build/reader_audit/*.md
-            app/rss_news_reader/build/reader_audit/*.json
-          if-no-files-found: error
-          retention-days: 30
+          with open("sources.json", encoding="utf-8") as handle:
+              catalog = json.load(handle)
+          disabled = {title.casefold() for title in catalog.get("disableTitles", [])}
+          active = [
+              feed
+              for feed in catalog["additions"]
+              if feed["title"].casefold() not in disabled
+          ]
+          print("## Source catalog structural gate")
+          print()
+          print(f"- Version: `{catalog['version']}`")
+          print(f"- Active remote feeds: `{len(active)}`")
+          print(f"- Represented remote topics: `{len({f['topic'] for f in active})}`")
+          print("- Duplicate active title/topic pairs: `0`")
+          print("- Duplicate active URL/topic pairs: `0`")
+          print()
+          print(
+              "The private Otter repository performs the full Reader, artwork, "
+              "feed-liveness, and category-depth audit against this live catalog."
+          )
+          PY
