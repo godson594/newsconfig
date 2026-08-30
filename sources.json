@@ -1,5 +1,5 @@
 {
-  "version": 24,
+  "version": 35,
   "thumbnailProxy": {
     "enabled": false,
     "baseUrl": "https://bknews-thumbs.blakekarnes.workers.dev",
@@ -287,7 +287,54 @@
     "Stereophile",
     "The Pioneer Woman",
     "Town & Country",
-    "Women’s Health"
+    "Women’s Health",
+    "BBC Good Food",
+    "AIPT Comics",
+    "CIS Advisories",
+    "Darknet Diaries",
+    "Benoit Pasquier",
+    "chRyNaN Codes",
+    "ESPN College Football",
+    "ESPN Cricinfo",
+    "ESPN Golf",
+    "ESPN MLB",
+    "ESPN NBA",
+    "ESPN NCAA College Basketball",
+    "ESPN NFL",
+    "ESPN NHL",
+    "ESPN Soccer",
+    "ESPN Tennis",
+    "ESPN Top Stories",
+    "ESPN WNBA",
+    "MarketWatch",
+    "MedPage Today",
+    "Green Car Reports",
+    "iMore",
+    "Motor Authority",
+    "NYT Health",
+    "Product Hunt",
+    "Remodelista",
+    "Golf.com",
+    "Texas Monthly",
+    "The Source Hip-Hop",
+    "The Atomic Birdhouse",
+    "The Sweet Setup",
+    "TensorFlow Blog",
+    "OkKotlin",
+    "Vitalik Buterin Blog",
+    "Washington Post Business",
+    "Washington Post National",
+    "Washington Post Politics",
+    "Washington Post World",
+    "NHK Business",
+    "El Informador",
+    "LowKick MMA",
+    "Hacker News",
+    "Shooting Illustrated",
+    "NHK News",
+    "Medium - Programming",
+    "DigiTimes",
+    "CryptoBriefing"
   ],
   "overrides": [
     {
@@ -299,19 +346,11 @@
       "topic": "Dev"
     },
     {
-      "matchTitle": "OkKotlin",
-      "topic": "Dev"
-    },
-    {
       "matchTitle": "Public Object",
       "topic": "Dev"
     },
     {
       "matchTitle": "Zarah Dominguez",
-      "topic": "Dev"
-    },
-    {
-      "matchTitle": "chRyNaN Codes",
       "topic": "Dev"
     },
     {
@@ -321,6 +360,54 @@
     {
       "matchTitle": "designboom Design",
       "topic": "Design"
+    },
+    {
+      "matchTitle": "CoinDesk",
+      "readerMode": "webviewOnly"
+    },
+    {
+      "matchTitle": "The Defiant",
+      "readerMode": "webviewOnly"
+    },
+    {
+      "matchTitle": "War.gov News",
+      "readerMode": "webviewOnly"
+    },
+    {
+      "matchTitle": "Japan Today",
+      "readerMode": "webviewOnly"
+    },
+    {
+      "matchTitle": "Apple Developer",
+      "readerMode": "webviewOnly"
+    },
+    {
+      "matchTitle": "XXL",
+      "readerMode": "webviewOnly"
+    },
+    {
+      "matchTitle": "BoxingScene",
+      "readerMode": "webviewOnly"
+    },
+    {
+      "matchTitle": "Yahoo Boxing",
+      "readerMode": "webviewOnly"
+    },
+    {
+      "matchTitle": "xkcd",
+      "readerMode": "webviewOnly"
+    },
+    {
+      "matchTitle": "Creative Bloq",
+      "readerMode": "webviewOnly"
+    },
+    {
+      "matchTitle": "Metal Injection",
+      "readerMode": "webviewOnly"
+    },
+    {
+      "matchTitle": "NCAA FBS Football",
+      "readerMode": "webviewOnly"
     }
   ],
   "additions": [
@@ -377,7 +464,8 @@
     {
       "title": "Inman",
       "topic": "Real Estate",
-      "url": "https://feeds.feedburner.com/inmannews"
+      "url": "https://feeds.feedburner.com/inmannews",
+      "readerMode": "webviewOnly"
     },
     {
       "title": "Daring Fireball",
@@ -397,7 +485,8 @@
     {
       "title": "Apple Developer",
       "topic": "Tech",
-      "url": "https://developer.apple.com/news/rss/news.rss"
+      "url": "https://developer.apple.com/news/rss/news.rss",
+      "readerMode": "webviewOnly"
     },
     {
       "title": "The Sweet Setup",
@@ -413,11 +502,6 @@
       "title": "InformationWeek",
       "topic": "Tech",
       "url": "https://www.informationweek.com/rss.xml"
-    },
-    {
-      "title": "DigiTimes",
-      "topic": "Tech",
-      "url": "https://www.digitimes.com/rss/daily.xml"
     },
     {
       "title": "OMG! Ubuntu",
@@ -512,7 +596,8 @@
     {
       "title": "NASA Image of the Day",
       "topic": "Science",
-      "url": "https://www.nasa.gov/feeds/iotd-feed"
+      "url": "https://www.nasa.gov/feeds/iotd-feed",
+      "readerMode": "webviewOnly"
     },
     {
       "title": "101 Cookbooks",
@@ -572,12 +657,14 @@
     {
       "title": "Sophos Security Operations",
       "topic": "CyberSec",
-      "url": "https://www.sophos.com/en-us/category/security-operations/feed"
+      "url": "https://www.sophos.com/en-us/category/security-operations/feed",
+      "readerMode": "webviewOnly"
     },
     {
       "title": "Sophos Threat Research",
       "topic": "CyberSec",
-      "url": "https://www.sophos.com/en-us/category/threat-research/feed"
+      "url": "https://www.sophos.com/en-us/category/threat-research/feed",
+      "readerMode": "webviewOnly"
     },
     {
       "title": "The Hacker News",
@@ -612,7 +699,8 @@
     {
       "title": "SecurityWeek",
       "topic": "CyberSec",
-      "url": "https://www.securityweek.com/feed/"
+      "url": "https://www.securityweek.com/feed/",
+      "readerMode": "webviewOnly"
     },
     {
       "title": "NIST Cybersecurity Insights",
@@ -632,7 +720,7 @@
     {
       "title": "Google Security Blog",
       "topic": "CyberSec",
-      "url": "https://security.googleblog.com/atom.xml"
+      "url": "https://blog.google/security/rss/"
     },
     {
       "title": "Cisco Talos",
@@ -751,6 +839,7 @@
       "title": "New Scientist",
       "topic": "Science",
       "url": "https://www.newscientist.com/feed/",
+      "readerMode": "webviewOnly",
       "rolloutBatch": 1
     },
     {
@@ -787,6 +876,7 @@
       "title": "FORTUNE",
       "topic": "Business",
       "url": "https://fortune.com/feed/fortune-feeds/?id=3230629",
+      "readerMode": "webviewOnly",
       "rolloutBatch": 1
     },
     {
@@ -979,6 +1069,7 @@
       "title": "RACER",
       "topic": "Automotive",
       "url": "https://racer.com/feed",
+      "readerMode": "webviewOnly",
       "rolloutBatch": 3
     },
     {
@@ -1038,17 +1129,13 @@
     {
       "title": "Kill Six Billion Demons",
       "topic": "Comics",
-      "url": "https://killsixbilliondemons.com/feed/"
+      "url": "https://killsixbilliondemons.com/feed/",
+      "readerMode": "webviewOnly"
     },
     {
       "title": "CryptoSlate",
       "topic": "Crypto",
       "url": "https://cryptoslate.com/feed/"
-    },
-    {
-      "title": "CryptoBriefing",
-      "topic": "Crypto",
-      "url": "https://cryptobriefing.com/feed/"
     },
     {
       "title": "NewsNation",
@@ -1131,7 +1218,8 @@
     {
       "title": "The Beat",
       "topic": "Comics",
-      "url": "https://www.comicsbeat.com/feed/"
+      "url": "https://www.comicsbeat.com/feed/",
+      "readerMode": "webviewOnly"
     },
     {
       "title": "AIPT Comics",
@@ -1224,11 +1312,6 @@
       "url": "https://vanguardia.com.mx/rss.xml"
     },
     {
-      "title": "El Informador",
-      "topic": "Mexico",
-      "url": "https://www.informador.mx/rss/mexico.xml"
-    },
-    {
       "title": "El Imparcial de Oaxaca",
       "topic": "Mexico",
       "url": "https://imparcialoaxaca.mx/feed/"
@@ -1251,7 +1334,8 @@
     {
       "title": "The Conversation US",
       "topic": "News",
-      "url": "https://theconversation.com/us/articles.atom"
+      "url": "https://theconversation.com/us/articles.atom",
+      "readerMode": "webviewOnly"
     },
     {
       "title": "Rest of World",
@@ -1276,7 +1360,8 @@
     {
       "title": "Consequence",
       "topic": "Music",
-      "url": "https://consequence.net/feed/"
+      "url": "https://consequence.net/feed/",
+      "readerMode": "webviewOnly"
     },
     {
       "title": "El Universal",
@@ -1361,7 +1446,8 @@
     {
       "title": "NYT Technology",
       "topic": "Tech",
-      "url": "https://rss.nytimes.com/services/xml/rss/nyt/Technology.xml"
+      "url": "https://rss.nytimes.com/services/xml/rss/nyt/Technology.xml",
+      "readerMode": "webviewOnly"
     },
     {
       "title": "EDM Identity",
@@ -1371,7 +1457,8 @@
     {
       "title": "Metal Injection",
       "topic": "Music",
-      "url": "https://metalinjection.net/feed"
+      "url": "https://metalinjection.net/feed",
+      "readerMode": "webviewOnly"
     },
     {
       "title": "Blabbermouth Metal",
@@ -1381,7 +1468,8 @@
     {
       "title": "WBGO Jazz",
       "topic": "Music",
-      "url": "https://www.wbgo.org/music.rss"
+      "url": "https://www.wbgo.org/music.rss",
+      "readerMode": "webviewOnly"
     },
     {
       "title": "Soompi K-Pop",
@@ -1414,9 +1502,24 @@
       "url": "https://www.billboard.com/c/music/pop/feed/"
     },
     {
+      "title": "PopCrush",
+      "topic": "Music",
+      "url": "https://popcrush.com/feed/"
+    },
+    {
       "title": "Hip-Hop Wired",
       "topic": "Music",
       "url": "https://hiphopwired.com/feed/"
+    },
+    {
+      "title": "AllHipHop",
+      "topic": "Music",
+      "url": "https://allhiphop.com/feed/"
+    },
+    {
+      "title": "XXL",
+      "topic": "Music",
+      "url": "https://www.xxlmag.com/feed/"
     },
     {
       "title": "The Source Hip-Hop",
@@ -1454,6 +1557,11 @@
       "url": "https://www.billboard.com/c/music/rock/feed/"
     },
     {
+      "title": "Loudwire",
+      "topic": "Music",
+      "url": "https://loudwire.com/feed/"
+    },
+    {
       "title": "Jazz Journal",
       "topic": "Music",
       "url": "https://jazzjournal.co.uk/feed/"
@@ -1472,6 +1580,122 @@
       "title": "Monitor Latino",
       "topic": "Music",
       "url": "https://monitorlatino.com/feed/"
+    },
+    {
+      "title": "Tom's Guide Deals",
+      "topic": "Deals",
+      "url": "https://www.tomsguide.com/feeds/tag/deals"
+    },
+    {
+      "title": "CNET Deals",
+      "topic": "Deals",
+      "url": "https://www.cnet.com/rss/deals/"
+    },
+    {
+      "title": "web.dev",
+      "topic": "Dev",
+      "url": "https://web.dev/static/blog/feed.xml"
+    },
+    {
+      "title": "Chrome for Developers",
+      "topic": "Dev",
+      "url": "https://developer.chrome.com/static/blog/feed.xml"
+    },
+    {
+      "title": "Cloudflare Blog",
+      "topic": "Dev",
+      "url": "https://blog.cloudflare.com/rss/"
+    },
+    {
+      "title": "JetBrains Blog",
+      "topic": "Dev",
+      "url": "https://blog.jetbrains.com/feed/"
+    },
+    {
+      "title": "Microsoft Developer Blogs",
+      "topic": "Dev",
+      "url": "https://devblogs.microsoft.com/feed/"
+    },
+    {
+      "title": "Docker Blog",
+      "topic": "Dev",
+      "url": "https://www.docker.com/feed/"
+    },
+    {
+      "title": "Kubernetes Blog",
+      "topic": "Dev",
+      "url": "https://kubernetes.io/feed.xml"
+    },
+    {
+      "title": "Android Developers Blog",
+      "topic": "Dev",
+      "url": "https://android-developers.googleblog.com/feeds/posts/default"
+    },
+    {
+      "title": "CryptoNews",
+      "topic": "Crypto",
+      "url": "https://cryptonews.com/news/feed/"
+    },
+    {
+      "title": "Unchained",
+      "topic": "Crypto",
+      "url": "https://unchainedcrypto.com/feed/"
+    },
+    {
+      "title": "Realtor.com News",
+      "topic": "Real Estate",
+      "url": "https://www.realtor.com/news/feed/"
+    },
+    {
+      "title": "Bisnow",
+      "topic": "Real Estate",
+      "url": "https://www.bisnow.com/rss/all"
+    },
+    {
+      "title": "CBS Sports MLB",
+      "topic": "Sports",
+      "url": "https://www.cbssports.com/rss/headlines/mlb/"
+    },
+    {
+      "title": "CBS Sports College Football",
+      "topic": "Sports",
+      "url": "https://www.cbssports.com/rss/headlines/college-football/"
+    },
+    {
+      "title": "CBS Sports College Basketball",
+      "topic": "Sports",
+      "url": "https://www.cbssports.com/rss/headlines/college-basketball/"
+    },
+    {
+      "title": "NCAA FBS Football",
+      "topic": "Sports",
+      "url": "https://www.ncaa.com/news/football/fbs/rss.xml",
+      "readerMode": "webviewOnly"
+    },
+    {
+      "title": "Swish Appeal",
+      "topic": "Sports",
+      "url": "https://www.swishappeal.com/rss/index.xml"
+    },
+    {
+      "title": "CricTracker",
+      "topic": "Sports",
+      "url": "https://www.crictracker.com/feed/"
+    },
+    {
+      "title": "Pro Football Rumors",
+      "topic": "Sports",
+      "url": "https://www.profootballrumors.com/feed"
+    },
+    {
+      "title": "Tennis Majors",
+      "topic": "Sports",
+      "url": "https://www.tennismajors.com/feed"
+    },
+    {
+      "title": "Golf Monthly",
+      "topic": "Sports",
+      "url": "https://www.golfmonthly.com/feeds.xml"
     },
     {
       "title": "ESPN NFL",
@@ -1552,6 +1776,46 @@
       "title": "ESPN Top Stories",
       "topic": "Sports",
       "url": "https://news.google.com/rss/search?q=site%3Aespn.com%20when%3A1d&hl=en-US&gl=US&ceid=US%3Aen"
+    },
+    {
+      "title": "BJPENN",
+      "topic": "MMA",
+      "url": "https://www.bjpenn.com/feed/"
+    },
+    {
+      "title": "MMA Weekly",
+      "topic": "MMA",
+      "url": "https://www.mmaweekly.com/feed/"
+    },
+    {
+      "title": "Bloody Elbow",
+      "topic": "MMA",
+      "url": "https://www.bloodyelbow.com/feed/"
+    },
+    {
+      "title": "TechRadar Deals",
+      "topic": "Deals",
+      "url": "https://www.techradar.com/feeds/tag/deals"
+    },
+    {
+      "title": "Tom's Hardware Deals",
+      "topic": "Deals",
+      "url": "https://www.tomshardware.com/feeds/tag/deals"
+    },
+    {
+      "title": "PCMag Deals",
+      "topic": "Deals",
+      "url": "https://www.pcmag.com/feeds/rss/deals"
+    },
+    {
+      "title": "BBC Health",
+      "topic": "Health",
+      "url": "https://feeds.bbci.co.uk/news/health/rss.xml"
+    },
+    {
+      "title": "News-Medical",
+      "topic": "Health",
+      "url": "https://www.news-medical.net/syndication.axd"
     }
   ]
 }

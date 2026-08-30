@@ -1,0 +1,109 @@
+name: Source Catalog Preflight
+
+on:
+  pull_request:
+    paths:
+      - sources.json
+      - .github/workflows/source-catalog-preflight.yml
+  push:
+    branches:
+      - main
+    paths:
+      - sources.json
+      - .github/workflows/source-catalog-preflight.yml
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: source-catalog-preflight-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    env:
+      READER_AUDIT_ARTICLES_PER_SOURCE: "3"
+      READER_AUDIT_FEED_CONCURRENCY: "10"
+      READER_AUDIT_ARTICLE_CONCURRENCY: "10"
+      READER_AUDIT_TIMEOUT_MINUTES: "22"
+      READER_AUDIT_STALE_FEED_DAYS: "30"
+      READER_AUDIT_OUTPUT_DIR: build/reader_audit
+      READER_AUDIT_CATALOG_CONFIG_FILE: ../../config/sources.json
+      READER_AUDIT_STRICT: "true"
+      READER_AUDIT_INCLUDE_WEBVIEW_ONLY: "true"
+
+    steps:
+      - name: Check out source configuration
+        uses: actions/checkout@v4
+        with:
+          path: config
+
+      - name: Check out Otter application audit tools
+        uses: actions/checkout@v4
+        with:
+          repository: godson594/bknews
+          ref: 1ba2a8e4fa56829460b847361932aa4188586fd7
+          path: app
+
+      - name: Set up Flutter
+        uses: subosito/flutter-action@v2
+        with:
+          flutter-version: 3.41.4
+          channel: stable
+          cache: true
+
+      - name: Install audit dependencies
+        working-directory: app/rss_news_reader
+        run: flutter pub get
+
+      - name: Validate source configuration
+        run: python3 -m json.tool config/sources.json >/dev/null
+
+      - name: Audit every enabled source and recent article
+        working-directory: app/rss_news_reader
+        run: bash ./tool/reader_audit.sh
+
+      - name: Enforce category depth and Reader experience
+        working-directory: app/rss_news_reader
+        run: |
+          report=build/reader_audit/reader_audit_latest.json
+          jq -e '
+            [
+              .articles[]
+              | select(.category != "Regression")
+              | {category, source}
+            ]
+            | unique
+            | group_by(.category)
+            | map({category: .[0].category, sourceCount: length}) as $categories
+            | ($categories | length) == 30
+              and all($categories[]; .sourceCount >= 5)
+          ' "$report"
+          jq -e '
+            all(
+              .articles[].issues[]?;
+              .code != "thin_webview_shell"
+            )
+          ' "$report"
+
+      - name: Publish audit summary
+        if: always()
+        working-directory: app/rss_news_reader
+        run: |
+          if [[ -f build/reader_audit/reader_audit_latest.md ]]; then
+            cat build/reader_audit/reader_audit_latest.md >> "$GITHUB_STEP_SUMMARY"
+          fi
+
+      - name: Preserve the report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: source-catalog-preflight
+          path: |
+            app/rss_news_reader/build/reader_audit/*.md
+            app/rss_news_reader/build/reader_audit/*.json
+          if-no-files-found: error
+          retention-days: 30
