@@ -1,5 +1,5 @@
 {
-  "version": 35,
+  "version": 36,
   "thumbnailProxy": {
     "enabled": false,
     "baseUrl": "https://bknews-thumbs.blakekarnes.workers.dev",
@@ -334,7 +334,8 @@
     "NHK News",
     "Medium - Programming",
     "DigiTimes",
-    "CryptoBriefing"
+    "CryptoBriefing",
+    "The Loop"
   ],
   "overrides": [
     {
@@ -407,6 +408,18 @@
     },
     {
       "matchTitle": "NCAA FBS Football",
+      "readerMode": "webviewOnly"
+    },
+    {
+      "matchTitle": "GaijinPot",
+      "url": "https://blog.gaijinpot.com/feed/"
+    },
+    {
+      "matchTitle": "Medical Xpress",
+      "readerMode": "webviewOnly"
+    },
+    {
+      "matchTitle": "WinBuzzer",
       "readerMode": "webviewOnly"
     }
   ],
@@ -1244,7 +1257,8 @@
     {
       "title": "Abduzeedo",
       "topic": "Design",
-      "url": "https://abduzeedo.com/rss.xml"
+      "url": "https://abduzeedo.com/rss.xml",
+      "readerMode": "webviewOnly"
     },
     {
       "title": "BBC Good Food",
@@ -1314,7 +1328,8 @@
     {
       "title": "El Imparcial de Oaxaca",
       "topic": "Mexico",
-      "url": "https://imparcialoaxaca.mx/feed/"
+      "url": "https://imparcialoaxaca.mx/feed/",
+      "readerMode": "webviewOnly"
     },
     {
       "title": "Plaza Juárez",
@@ -1436,7 +1451,8 @@
     {
       "title": "PBS NewsHour",
       "topic": "News",
-      "url": "https://www.pbs.org/newshour/feeds/rss/headlines"
+      "url": "https://www.pbs.org/newshour/feeds/rss/headlines",
+      "readerMode": "webviewOnly"
     },
     {
       "title": "Guardian Environment",
