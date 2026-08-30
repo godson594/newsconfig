@@ -1,5 +1,5 @@
 {
-  "version": 21,
+  "version": 22,
   "thumbnailProxy": {
     "enabled": false,
     "baseUrl": "https://bknews-thumbs.blakekarnes.workers.dev",
@@ -1362,6 +1362,51 @@
       "title": "NYT Technology",
       "topic": "Tech",
       "url": "https://rss.nytimes.com/services/xml/rss/nyt/Technology.xml"
+    },
+    {
+      "title": "EDM Identity",
+      "topic": "Music",
+      "url": "https://edmidentity.com/feed/"
+    },
+    {
+      "title": "Metal Injection",
+      "topic": "Music",
+      "url": "https://metalinjection.net/feed"
+    },
+    {
+      "title": "Blabbermouth Metal",
+      "topic": "Music",
+      "url": "https://blabbermouth.net/feed"
+    },
+    {
+      "title": "WBGO Jazz",
+      "topic": "Music",
+      "url": "https://www.wbgo.org/music.rss"
+    },
+    {
+      "title": "Soompi K-Pop",
+      "topic": "Music",
+      "url": "https://www.soompi.com/category/music/feed"
+    },
+    {
+      "title": "Billboard Latin",
+      "topic": "Music",
+      "url": "https://www.billboard.com/c/latin/feed/"
+    },
+    {
+      "title": "Remezcla Latin",
+      "topic": "Music",
+      "url": "https://remezcla.com/category/music/feed/"
+    },
+    {
+      "title": "CBS Sports NHL",
+      "topic": "Sports",
+      "url": "https://www.cbssports.com/rss/headlines/nhl"
+    },
+    {
+      "title": "The Hockey News",
+      "topic": "Sports",
+      "url": "https://thehockeynews.com/.rss/full/"
     }
   ]
 }
