@@ -1,5 +1,5 @@
 {
-  "version": 23,
+  "version": 24,
   "thumbnailProxy": {
     "enabled": false,
     "baseUrl": "https://bknews-thumbs.blakekarnes.workers.dev",
@@ -1421,7 +1421,7 @@
     {
       "title": "The Source Hip-Hop",
       "topic": "Music",
-      "url": "https://thesource.com/feed/"
+      "url": "https://news.google.com/rss/search?q=site%3Athesource.com%20when%3A30d&hl=en-US&gl=US&ceid=US%3Aen"
     },
     {
       "title": "Billboard Country",
@@ -1476,22 +1476,22 @@
     {
       "title": "ESPN NFL",
       "topic": "Sports",
-      "url": "https://www.espn.com/espn/rss/nfl/news"
+      "url": "https://news.google.com/rss/search?q=site%3Aespn.com%2Fnfl%20when%3A7d&hl=en-US&gl=US&ceid=US%3Aen"
     },
     {
       "title": "ESPN NBA",
       "topic": "Sports",
-      "url": "https://www.espn.com/espn/rss/nba/news"
+      "url": "https://news.google.com/rss/search?q=site%3Aespn.com%2Fnba%20when%3A7d&hl=en-US&gl=US&ceid=US%3Aen"
     },
     {
       "title": "ESPN WNBA",
       "topic": "Sports",
-      "url": "https://www.espn.com/espn/rss/wnba/news"
+      "url": "https://news.google.com/rss/search?q=site%3Aespn.com%2Fwnba%20when%3A7d&hl=en-US&gl=US&ceid=US%3Aen"
     },
     {
       "title": "ESPN MLB",
       "topic": "Sports",
-      "url": "https://www.espn.com/espn/rss/mlb/news"
+      "url": "https://news.google.com/rss/search?q=site%3Aespn.com%2Fmlb%20when%3A7d&hl=en-US&gl=US&ceid=US%3Aen"
     },
     {
       "title": "MLB News",
@@ -1506,12 +1506,12 @@
     {
       "title": "ESPN NHL",
       "topic": "Sports",
-      "url": "https://www.espn.com/espn/rss/nhl/news"
+      "url": "https://news.google.com/rss/search?q=site%3Aespn.com%2Fnhl%20when%3A7d&hl=en-US&gl=US&ceid=US%3Aen"
     },
     {
       "title": "ESPN Soccer",
       "topic": "Sports",
-      "url": "https://www.espn.com/espn/rss/soccer/news"
+      "url": "https://news.google.com/rss/search?q=site%3Aespn.com%2Fsoccer%20when%3A7d&hl=en-US&gl=US&ceid=US%3Aen"
     },
     {
       "title": "BBC Sport Soccer",
@@ -1521,7 +1521,7 @@
     {
       "title": "ESPN Tennis",
       "topic": "Sports",
-      "url": "https://www.espn.com/espn/rss/tennis/news"
+      "url": "https://news.google.com/rss/search?q=site%3Aespn.com%2Ftennis%20when%3A7d&hl=en-US&gl=US&ceid=US%3Aen"
     },
     {
       "title": "BBC Sport Tennis",
@@ -1531,7 +1531,7 @@
     {
       "title": "ESPN Golf",
       "topic": "Sports",
-      "url": "https://www.espn.com/espn/rss/golf/news"
+      "url": "https://news.google.com/rss/search?q=site%3Aespn.com%2Fgolf%20when%3A7d&hl=en-US&gl=US&ceid=US%3Aen"
     },
     {
       "title": "BBC Sport Golf",
@@ -1541,12 +1541,17 @@
     {
       "title": "ESPN College Football",
       "topic": "Sports",
-      "url": "https://www.espn.com/espn/rss/ncf/news"
+      "url": "https://news.google.com/rss/search?q=site%3Aespn.com%2Fcollege-football%20when%3A7d&hl=en-US&gl=US&ceid=US%3Aen"
     },
     {
       "title": "ESPN NCAA College Basketball",
       "topic": "Sports",
-      "url": "https://www.espn.com/espn/rss/ncb/news"
+      "url": "https://news.google.com/rss/search?q=site%3Aespn.com%2Fmens-college-basketball%20when%3A7d&hl=en-US&gl=US&ceid=US%3Aen"
+    },
+    {
+      "title": "ESPN Top Stories",
+      "topic": "Sports",
+      "url": "https://news.google.com/rss/search?q=site%3Aespn.com%20when%3A1d&hl=en-US&gl=US&ceid=US%3Aen"
     }
   ]
 }
