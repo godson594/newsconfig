@@ -1,0 +1,85 @@
+{
+  "schemaVersion": 1,
+  "revision": 7,
+  "generatedAt": "2026-08-09T04:56:58Z",
+  "rollout": {
+    "percentage": 100,
+    "salt": "launch-policy-v1"
+  },
+  "features": {
+    "hero": true,
+    "briefing": true,
+    "fullCoverage": true,
+    "sectionSpotlights": true,
+    "pairedCards": true,
+    "trending": true,
+    "localNews": true,
+    "onThisDay": true,
+    "otter2048": true,
+    "readerAudio": true,
+    "translation": true,
+    "sponsoredStories": false
+  },
+  "feedComposition": {
+    "maxConsecutiveSource": 2,
+    "maxConsecutiveCategory": 3,
+    "sourceWindowSize": 20,
+    "maxPerSourceInWindow": 4,
+    "localMaxPerSource": 6,
+    "localMaximumAgeHours": 48,
+    "largeCardsRequireImage": true
+  },
+  "presentation": {
+    "sectionLeadInsertPositions": [
+      10,
+      22,
+      34,
+      46,
+      58,
+      70,
+      82,
+      94,
+      106,
+      118,
+      130,
+      142,
+      154,
+      166,
+      178
+    ],
+    "feedCardInsertPositions": [6, 12, 18, 24, 30],
+    "trendingInsertPosition": 24,
+    "pairCadence": 6,
+    "defaultNavigationBarSize": "default",
+    "defaultNavigationBarAutoHide": true,
+    "defaultIpadNavigationStyle": "sidebar",
+    "defaultIpadFeedLayout": "magazine",
+    "sectionSpotlightExcludedCategories": [
+      "News",
+      "Local",
+      "Comics",
+      "Deals"
+    ]
+  },
+  "performance": {
+    "initialDisplayedCount": 40,
+    "loadMoreBatchSize": 14,
+    "cacheFreshnessMinutes": 15,
+    "launchRefreshFreshnessMinutes": 5,
+    "foregroundRefreshFreshnessMinutes": 5,
+    "activeFeedRefreshMinutes": 5,
+    "onDeviceReloadSeconds": 90
+  },
+  "messages": [
+    {
+      "id": "header-dot-test-20260808-build495",
+      "title": "Remote messages are working",
+      "body": "This test message was sent remotely to verify the blue notification dot and Otter update card on your device.",
+      "minAppBuild": 495,
+      "maxAppBuild": 496,
+      "startAt": "2026-08-09T04:43:58Z",
+      "endAt": "2026-08-10T04:43:58Z",
+      "enabled": true
+    }
+  ]
+}
