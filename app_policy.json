@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "revision": 7,
-  "generatedAt": "2026-08-09T04:56:58Z",
+  "revision": 8,
+  "generatedAt": "2026-09-01T19:07:17Z",
   "rollout": {
     "percentage": 100,
     "salt": "launch-policy-v1"
@@ -79,6 +79,19 @@
       "maxAppBuild": 496,
       "startAt": "2026-08-09T04:43:58Z",
       "endAt": "2026-08-10T04:43:58Z",
+      "enabled": true
+    },
+    {
+      "id": "update-card-preview-build514-20260901",
+      "title": "Update card preview",
+      "body": "A newer version of otter.news is ready. This preview shows how update notices will appear in your feed.",
+      "ctaLabel": "Preview update",
+      "actionUrl": "https://otter.news/",
+      "minAppBuild": 514,
+      "maxAppBuild": 514,
+      "latestAppBuild": 515,
+      "startAt": "2026-09-01T19:07:17Z",
+      "endAt": "2026-09-01T22:07:17Z",
       "enabled": true
     }
   ]
