@@ -1,6 +1,7 @@
 {
   "version": 1,
   "enabled": true,
+  "preferCompleteFeedContent": true,
   "cleanWebViewCssSelectors": [],
   "blockedHosts": [],
   "blockedPathFragments": [],
