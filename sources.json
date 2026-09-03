@@ -1,5 +1,5 @@
 {
-  "version": 36,
+  "version": 37,
   "thumbnailProxy": {
     "enabled": false,
     "baseUrl": "https://bknews-thumbs.blakekarnes.workers.dev",
@@ -217,6 +217,9 @@
       "category": "Music"
     },
     {
+      "category": "Movies"
+    },
+    {
       "category": "Real Estate"
     },
     {
@@ -252,6 +255,11 @@
       "name": "Mexico",
       "icon": "globe",
       "color": "#006847"
+    },
+    {
+      "name": "Movies",
+      "icon": "film",
+      "color": "#F05454"
     }
   ],
   "disableTitles": [
@@ -792,8 +800,13 @@
     },
     {
       "title": "/Film",
-      "topic": "Culture",
+      "topic": "Movies",
       "url": "https://www.slashfilm.com/feed/"
+    },
+    {
+      "title": "FirstShowing",
+      "topic": "Movies",
+      "url": "https://www.firstshowing.net/feed/"
     },
     {
       "title": "The A.V. Club",
