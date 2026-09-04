@@ -1,5 +1,5 @@
 {
-  "version": 37,
+  "version": 38,
   "thumbnailProxy": {
     "enabled": false,
     "baseUrl": "https://bknews-thumbs.blakekarnes.workers.dev",
@@ -1850,6 +1850,55 @@
       "title": "News-Medical",
       "topic": "Health",
       "url": "https://www.news-medical.net/syndication.axd"
+    },
+    {
+      "title": "FourFourTwo",
+      "topic": "Sports",
+      "url": "https://www.fourfourtwo.com/feeds/all",
+      "rolloutBatch": 5
+    },
+    {
+      "title": "FLYING Magazine",
+      "topic": "Travel",
+      "url": "https://www.flyingmag.com/feed/",
+      "rolloutBatch": 5
+    },
+    {
+      "title": "Popular Woodworking",
+      "topic": "Design",
+      "url": "https://www.popularwoodworking.com/feed/",
+      "rolloutBatch": 5
+    },
+    {
+      "title": "Gripped",
+      "topic": "Sports",
+      "url": "https://gripped.com/feed/",
+      "rolloutBatch": 5
+    },
+    {
+      "title": "MadeForMums",
+      "topic": "Lifestyle",
+      "url": "https://www.madeformums.com/feed/",
+      "rolloutBatch": 5
+    },
+    {
+      "title": "Birds & Blooms",
+      "topic": "Lifestyle",
+      "url": "https://www.birdsandblooms.com/feed/",
+      "readerMode": "webviewOnly",
+      "rolloutBatch": 5
+    },
+    {
+      "title": "Cottage Life",
+      "topic": "Travel",
+      "url": "https://www.cottagelife.com/feed/",
+      "rolloutBatch": 5
+    },
+    {
+      "title": "MoneyWeek",
+      "topic": "Business",
+      "url": "https://moneyweek.com/feeds/all",
+      "rolloutBatch": 5
     }
   ]
 }

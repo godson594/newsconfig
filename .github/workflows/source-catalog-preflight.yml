@@ -48,11 +48,11 @@ jobs:
               "AI", "Automotive", "Boxing", "Business", "Celeb", "Comics",
               "Crypto", "Culture", "CyberSec", "Deals", "Design", "Dev",
               "Firearms", "Food", "Gaming", "Health", "Interior design",
-              "Japan", "Lifestyle", "MMA", "Mexico", "Military", "Music",
+              "Japan", "Lifestyle", "MMA", "Mexico", "Military", "Movies", "Music",
               "News", "Politics", "Real Estate", "Science", "Sports", "Tech",
               "Travel",
           }
-          assert len(canonical_topics) == 30
+          assert len(canonical_topics) == 31
 
           categories = catalog.get("categories")
           assert isinstance(categories, list)
