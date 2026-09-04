@@ -1,5 +1,5 @@
 {
-  "version": 38,
+  "version": 39,
   "thumbnailProxy": {
     "enabled": false,
     "baseUrl": "https://bknews-thumbs.blakekarnes.workers.dev",
@@ -1899,6 +1899,42 @@
       "topic": "Business",
       "url": "https://moneyweek.com/feeds/all",
       "rolloutBatch": 5
+    },
+    {
+      "title": "HELLO!",
+      "topic": "Celeb",
+      "url": "https://www.hellomagazine.com/rss.xml",
+      "rolloutBatch": 6
+    },
+    {
+      "title": "Maxim",
+      "topic": "Lifestyle",
+      "url": "https://www.maxim.com/feed/",
+      "rolloutBatch": 6
+    },
+    {
+      "title": "NewBeauty",
+      "topic": "Lifestyle",
+      "url": "https://www.newbeauty.com/feed/",
+      "rolloutBatch": 6
+    },
+    {
+      "title": "Amateur Photographer",
+      "topic": "Design",
+      "url": "https://amateurphotographer.com/feed/",
+      "rolloutBatch": 6
+    },
+    {
+      "title": "Canadian Running",
+      "topic": "Sports",
+      "url": "https://runningmagazine.ca/feed/",
+      "rolloutBatch": 6
+    },
+    {
+      "title": "Out",
+      "topic": "Lifestyle",
+      "url": "https://www.out.com/rss.xml",
+      "rolloutBatch": 6
     }
   ]
 }
