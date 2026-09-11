@@ -1,5 +1,5 @@
 {
-  "version": 40,
+  "version": 41,
   "thumbnailProxy": {
     "enabled": false,
     "baseUrl": "https://bknews-thumbs.blakekarnes.workers.dev",
@@ -433,6 +433,11 @@
     }
   ],
   "additions": [
+    {
+      "title": "Road to VR",
+      "topic": "Tech",
+      "url": "https://roadtovr.com/feed/"
+    },
     {
       "title": "Windows Latest",
       "topic": "Tech",
