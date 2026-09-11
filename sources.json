@@ -1,5 +1,5 @@
 {
-  "version": 39,
+  "version": 40,
   "thumbnailProxy": {
     "enabled": false,
     "baseUrl": "https://bknews-thumbs.blakekarnes.workers.dev",
@@ -263,6 +263,7 @@
     }
   ],
   "disableTitles": [
+    "The Verge",
     "Apartment Therapy",
     "Apartment Therapy Design",
     "Elle",
@@ -432,6 +433,21 @@
     }
   ],
   "additions": [
+    {
+      "title": "Windows Latest",
+      "topic": "Tech",
+      "url": "https://www.windowslatest.com/feed/"
+    },
+    {
+      "title": "Droid Life",
+      "topic": "Tech",
+      "url": "https://www.droid-life.com/feed/"
+    },
+    {
+      "title": "Android Central",
+      "topic": "Tech",
+      "url": "https://www.androidcentral.com/feed"
+    },
     {
       "title": "BuzzFeed",
       "topic": "News",
