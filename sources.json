@@ -1,5 +1,5 @@
 {
-  "version": 42,
+  "version": 43,
   "thumbnailProxy": {
     "enabled": false,
     "baseUrl": "https://bknews-thumbs.blakekarnes.workers.dev",
@@ -2006,6 +2006,31 @@
       "title": "Celebitchy",
       "topic": "Celeb",
       "url": "https://www.celebitchy.com/feed/"
+    },
+    {
+      "title": "Work Chronicles",
+      "topic": "Comics",
+      "url": "https://workchronicles.com/feed/"
+    },
+    {
+      "title": "Savestate",
+      "topic": "Comics",
+      "url": "https://www.savestatecomic.com/feed/atom/"
+    },
+    {
+      "title": "Poorly Drawn Lines",
+      "topic": "Comics",
+      "url": "https://poorlydrawnlines.com/feed"
+    },
+    {
+      "title": "Dinosaur Comics",
+      "topic": "Comics",
+      "url": "https://www.qwantz.com/rssfeed.php"
+    },
+    {
+      "title": "Sheldon",
+      "topic": "Comics",
+      "url": "https://www.sheldoncomics.com/feed/atom/"
     }
   ]
 }
