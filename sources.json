@@ -1,5 +1,5 @@
 {
-  "version": 41,
+  "version": 42,
   "thumbnailProxy": {
     "enabled": false,
     "baseUrl": "https://bknews-thumbs.blakekarnes.workers.dev",
@@ -1956,6 +1956,56 @@
       "topic": "Lifestyle",
       "url": "https://www.out.com/rss.xml",
       "rolloutBatch": 6
+    },
+    {
+      "title": "The Inspired Room",
+      "topic": "Interior design",
+      "url": "https://theinspiredroom.net/feed/"
+    },
+    {
+      "title": "Comic Book Yeti",
+      "topic": "Comics",
+      "url": "https://www.comicbookyeti.com/blog-feed.xml"
+    },
+    {
+      "title": "Irish Boxing",
+      "topic": "Boxing",
+      "url": "https://www.irish-boxing.com/feed/"
+    },
+    {
+      "title": "Light Stalking",
+      "topic": "Design",
+      "url": "https://www.lightstalking.com/feed/"
+    },
+    {
+      "title": "Engineering at Meta",
+      "topic": "Dev",
+      "url": "https://engineering.fb.com/feed/"
+    },
+    {
+      "title": "Indie Games Plus",
+      "topic": "Gaming",
+      "url": "https://indiegamesplus.com/feed/"
+    },
+    {
+      "title": "Neuroscience News",
+      "topic": "Health",
+      "url": "https://neurosciencenews.com/feed/"
+    },
+    {
+      "title": "Naval News",
+      "topic": "Military",
+      "url": "https://www.navalnews.com/feed/"
+    },
+    {
+      "title": "Deutsche Welle",
+      "topic": "News",
+      "url": "https://rss.dw.com/rdf/rss-en-all"
+    },
+    {
+      "title": "Celebitchy",
+      "topic": "Celeb",
+      "url": "https://www.celebitchy.com/feed/"
     }
   ]
 }
