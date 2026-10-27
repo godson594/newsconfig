@@ -1,5 +1,5 @@
 {
-  "version": 44,
+  "version": 45,
   "thumbnailProxy": {
     "enabled": false,
     "baseUrl": "https://bknews-thumbs.blakekarnes.workers.dev",
@@ -345,7 +345,8 @@
     "DigiTimes",
     "CryptoBriefing",
     "The Loop",
-    "The Beat"
+    "The Beat",
+    "OSNews"
   ],
   "overrides": [
     {
@@ -555,11 +556,6 @@
       "title": "OMG! Ubuntu",
       "topic": "Tech",
       "url": "https://www.omgubuntu.co.uk/feed"
-    },
-    {
-      "title": "OSNews",
-      "topic": "Tech",
-      "url": "https://www.osnews.com/feed/"
     },
     {
       "title": "The Pragmatic Engineer",
