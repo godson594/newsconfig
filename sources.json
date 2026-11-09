@@ -1,5 +1,5 @@
 {
-  "version": 45,
+  "version": 46,
   "thumbnailProxy": {
     "enabled": false,
     "baseUrl": "https://bknews-thumbs.blakekarnes.workers.dev",
@@ -346,7 +346,8 @@
     "CryptoBriefing",
     "The Loop",
     "The Beat",
-    "OSNews"
+    "OSNews",
+    "Yahoo Finance"
   ],
   "overrides": [
     {
@@ -432,6 +433,10 @@
     {
       "matchTitle": "WinBuzzer",
       "readerMode": "webviewOnly"
+    },
+    {
+      "matchTitle": "tyler.io",
+      "url": "https://tyler.io/feed/index.xml"
     }
   ],
   "additions": [
@@ -1462,7 +1467,7 @@
     {
       "title": "European Space Agency",
       "topic": "Science",
-      "url": "https://www.esa.int/rssfeed/Our_Activities"
+      "url": "https://www.esa.int/rssfeed/TopNews"
     },
     {
       "title": "InsideEVs",
