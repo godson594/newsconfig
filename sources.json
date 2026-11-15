@@ -1,5 +1,5 @@
 {
-  "version": 48,
+  "version": 49,
   "thumbnailProxy": {
     "enabled": false,
     "baseUrl": "https://bknews-thumbs.blakekarnes.workers.dev",
@@ -2048,6 +2048,11 @@
       "title": "The Firearm Blog",
       "topic": "Firearms",
       "url": "https://www.thefirearmblog.com/blog/feed/"
+    },
+    {
+      "title": "GunsAmerica Digest",
+      "topic": "Firearms",
+      "url": "https://gunsamerica.com/digest/feed/"
     }
   ]
 }
