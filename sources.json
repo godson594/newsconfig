@@ -1,5 +1,5 @@
 {
-  "version": 47,
+  "version": 48,
   "thumbnailProxy": {
     "enabled": false,
     "baseUrl": "https://bknews-thumbs.blakekarnes.workers.dev",
@@ -2043,6 +2043,11 @@
       "title": "HotHardware",
       "topic": "Tech",
       "url": "https://hothardware.com/rss/news.aspx"
+    },
+    {
+      "title": "The Firearm Blog",
+      "topic": "Firearms",
+      "url": "https://www.thefirearmblog.com/blog/feed/"
     }
   ]
 }
