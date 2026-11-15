@@ -1,5 +1,5 @@
 {
-  "version": 46,
+  "version": 47,
   "thumbnailProxy": {
     "enabled": false,
     "baseUrl": "https://bknews-thumbs.blakekarnes.workers.dev",
@@ -2033,6 +2033,16 @@
       "title": "Sheldon",
       "topic": "Comics",
       "url": "https://www.sheldoncomics.com/feed/atom/"
+    },
+    {
+      "title": "TechPowerUp",
+      "topic": "Tech",
+      "url": "https://www.techpowerup.com/rss/news"
+    },
+    {
+      "title": "HotHardware",
+      "topic": "Tech",
+      "url": "https://hothardware.com/rss/news.aspx"
     }
   ]
 }
