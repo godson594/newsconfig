@@ -1,5 +1,5 @@
 {
-  "version": 49,
+  "version": 50,
   "thumbnailProxy": {
     "enabled": false,
     "baseUrl": "https://bknews-thumbs.blakekarnes.workers.dev",
@@ -305,14 +305,8 @@
     "chRyNaN Codes",
     "ESPN College Football",
     "ESPN Cricinfo",
-    "ESPN Golf",
-    "ESPN MLB",
-    "ESPN NBA",
     "ESPN NCAA College Basketball",
-    "ESPN NFL",
-    "ESPN NHL",
     "ESPN Soccer",
-    "ESPN Tennis",
     "ESPN Top Stories",
     "ESPN WNBA",
     "MarketWatch",
@@ -1757,12 +1751,12 @@
     {
       "title": "ESPN NFL",
       "topic": "Sports",
-      "url": "https://news.google.com/rss/search?q=site%3Aespn.com%2Fnfl%20when%3A7d&hl=en-US&gl=US&ceid=US%3Aen"
+      "url": "https://www.espn.com/espn/rss/nfl/news"
     },
     {
       "title": "ESPN NBA",
       "topic": "Sports",
-      "url": "https://news.google.com/rss/search?q=site%3Aespn.com%2Fnba%20when%3A7d&hl=en-US&gl=US&ceid=US%3Aen"
+      "url": "https://www.espn.com/espn/rss/nba/news"
     },
     {
       "title": "ESPN WNBA",
@@ -1772,7 +1766,7 @@
     {
       "title": "ESPN MLB",
       "topic": "Sports",
-      "url": "https://news.google.com/rss/search?q=site%3Aespn.com%2Fmlb%20when%3A7d&hl=en-US&gl=US&ceid=US%3Aen"
+      "url": "https://www.espn.com/espn/rss/mlb/news"
     },
     {
       "title": "MLB News",
@@ -1787,7 +1781,7 @@
     {
       "title": "ESPN NHL",
       "topic": "Sports",
-      "url": "https://news.google.com/rss/search?q=site%3Aespn.com%2Fnhl%20when%3A7d&hl=en-US&gl=US&ceid=US%3Aen"
+      "url": "https://www.espn.com/espn/rss/nhl/news"
     },
     {
       "title": "ESPN Soccer",
@@ -1802,7 +1796,7 @@
     {
       "title": "ESPN Tennis",
       "topic": "Sports",
-      "url": "https://news.google.com/rss/search?q=site%3Aespn.com%2Ftennis%20when%3A7d&hl=en-US&gl=US&ceid=US%3Aen"
+      "url": "https://www.espn.com/espn/rss/tennis/news"
     },
     {
       "title": "BBC Sport Tennis",
@@ -1812,7 +1806,7 @@
     {
       "title": "ESPN Golf",
       "topic": "Sports",
-      "url": "https://news.google.com/rss/search?q=site%3Aespn.com%2Fgolf%20when%3A7d&hl=en-US&gl=US&ceid=US%3Aen"
+      "url": "https://www.espn.com/espn/rss/golf/news"
     },
     {
       "title": "BBC Sport Golf",
