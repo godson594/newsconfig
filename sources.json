@@ -1,5 +1,5 @@
 {
-  "version": 50,
+  "version": 51,
   "thumbnailProxy": {
     "enabled": false,
     "baseUrl": "https://bknews-thumbs.blakekarnes.workers.dev",
@@ -2047,6 +2047,286 @@
       "title": "GunsAmerica Digest",
       "topic": "Firearms",
       "url": "https://gunsamerica.com/digest/feed/"
+    },
+    {
+      "title": "Eurohoops",
+      "topic": "Sports",
+      "url": "https://www.eurohoops.net/en/feed/"
+    },
+    {
+      "title": "Basketball Insiders",
+      "topic": "Sports",
+      "url": "https://www.basketballinsiders.com/feed/"
+    },
+    {
+      "title": "Pro Hockey Rumors",
+      "topic": "Sports",
+      "url": "https://www.prohockeyrumors.com/feed"
+    },
+    {
+      "title": "Hockey Writers",
+      "topic": "Sports",
+      "url": "https://thehockeywriters.com/feed/"
+    },
+    {
+      "title": "SB Nation NHL",
+      "topic": "Sports",
+      "url": "https://www.sbnation.com/rss/nhl/index.xml"
+    },
+    {
+      "title": "Sky Sports Golf",
+      "topic": "Sports",
+      "url": "https://www.skysports.com/rss/12176"
+    },
+    {
+      "title": "Sky Sports Football",
+      "topic": "Sports",
+      "url": "https://www.skysports.com/rss/11095"
+    },
+    {
+      "title": "Soccer America",
+      "topic": "Sports",
+      "url": "https://www.socceramerica.com/rss/"
+    },
+    {
+      "title": "Football Italia",
+      "topic": "Sports",
+      "url": "https://football-italia.net/feed/"
+    },
+    {
+      "title": "Guardian Premier League",
+      "topic": "Sports",
+      "url": "https://www.theguardian.com/football/premierleague/rss"
+    },
+    {
+      "title": "Guardian Tennis",
+      "topic": "Sports",
+      "url": "https://www.theguardian.com/sport/tennis/rss"
+    },
+    {
+      "title": "Sky Sports Tennis",
+      "topic": "Sports",
+      "url": "https://www.skysports.com/rss/12110"
+    },
+    {
+      "title": "Tennis365",
+      "topic": "Sports",
+      "url": "https://www.tennis365.com/feed"
+    },
+    {
+      "title": "Indian Express Cricket",
+      "topic": "Sports",
+      "url": "https://indianexpress.com/section/sports/cricket/feed/"
+    },
+    {
+      "title": "Independent Cricket",
+      "topic": "Sports",
+      "url": "https://www.independent.co.uk/sport/cricket/rss"
+    },
+    {
+      "title": "RaceFans",
+      "topic": "Sports",
+      "url": "https://www.racefans.net/feed/"
+    },
+    {
+      "title": "Speedcafe",
+      "topic": "Sports",
+      "url": "https://www.speedcafe.com/feed/"
+    },
+    {
+      "title": "Sky Sports F1",
+      "topic": "Sports",
+      "url": "https://www.skysports.com/rss/12433"
+    },
+    {
+      "title": "ESPN Racing",
+      "topic": "Sports",
+      "url": "https://www.espn.com/espn/rss/rpm/news"
+    },
+    {
+      "title": "Motorsport Week",
+      "topic": "Sports",
+      "url": "https://www.motorsportweek.com/feed/"
+    },
+    {
+      "title": "Guardian Rugby League",
+      "topic": "Sports",
+      "url": "https://www.theguardian.com/sport/rugbyleague/rss"
+    },
+    {
+      "title": "ESPN Rugby",
+      "topic": "Sports",
+      "url": "https://www.espn.com/espn/rss/rugby/news"
+    },
+    {
+      "title": "Rugby World",
+      "topic": "Sports",
+      "url": "https://www.rugbyworld.com/feed"
+    },
+    {
+      "title": "Sky Sports Rugby Union",
+      "topic": "Sports",
+      "url": "https://www.skysports.com/rss/12321"
+    },
+    {
+      "title": "The Independent Rugby Union",
+      "topic": "Sports",
+      "url": "https://www.independent.co.uk/sport/rugby/rugby-union/rss"
+    },
+    {
+      "title": "Telegraph Rugby",
+      "topic": "Sports",
+      "url": "https://www.telegraph.co.uk/rugby-union/rss.xml"
+    },
+    {
+      "title": "ESPN NCAAF",
+      "topic": "Sports",
+      "url": "https://www.espn.com/espn/rss/ncf/news"
+    },
+    {
+      "title": "ESPN NCAAM",
+      "topic": "Sports",
+      "url": "https://www.espn.com/espn/rss/ncb/news"
+    },
+    {
+      "title": "On3",
+      "topic": "Sports",
+      "url": "https://www.on3.com/feed/"
+    },
+    {
+      "title": "Guardian Sport",
+      "topic": "Sports",
+      "url": "https://www.theguardian.com/uk/sport/rss"
+    },
+    {
+      "title": "Sporting News",
+      "topic": "Sports",
+      "url": "https://www.sportingnews.com/us/rss"
+    },
+    {
+      "title": "VIBE",
+      "topic": "Music",
+      "url": "https://www.vibe.com/feed/"
+    },
+    {
+      "title": "Rapzilla",
+      "topic": "Music",
+      "url": "https://rapzilla.com/feed/"
+    },
+    {
+      "title": "Ultimate Classic Rock",
+      "topic": "Music",
+      "url": "https://ultimateclassicrock.com/feed/"
+    },
+    {
+      "title": "Rock Sins",
+      "topic": "Music",
+      "url": "https://www.rocksins.com/feed"
+    },
+    {
+      "title": "Whiskey Riff",
+      "topic": "Music",
+      "url": "https://www.whiskeyriff.com/feed/"
+    },
+    {
+      "title": "Country Music Alley",
+      "topic": "Music",
+      "url": "https://www.countrymusicalley.com/feed/"
+    },
+    {
+      "title": "The Boot",
+      "topic": "Music",
+      "url": "https://theboot.com/feed/"
+    },
+    {
+      "title": "Country Universe",
+      "topic": "Music",
+      "url": "https://countryuniverse.net/feed/"
+    },
+    {
+      "title": "American Songwriter",
+      "topic": "Music",
+      "url": "https://americansongwriter.com/feed/"
+    },
+    {
+      "title": "Magnetic Magazine",
+      "topic": "Music",
+      "url": "https://magneticmag.com/feed/"
+    },
+    {
+      "title": "Data Transmission",
+      "topic": "Music",
+      "url": "https://datatransmission.co/feed/"
+    },
+    {
+      "title": "We Rave You",
+      "topic": "Music",
+      "url": "https://weraveyou.com/feed/"
+    },
+    {
+      "title": "Attack Magazine",
+      "topic": "Music",
+      "url": "https://www.attackmagazine.com/feed/"
+    },
+    {
+      "title": "Angry Metal Guy",
+      "topic": "Music",
+      "url": "https://www.angrymetalguy.com/feed/"
+    },
+    {
+      "title": "Distorted Sound",
+      "topic": "Music",
+      "url": "https://distortedsoundmag.com/feed/"
+    },
+    {
+      "title": "Jazziz",
+      "topic": "Music",
+      "url": "https://www.jazziz.com/feed/"
+    },
+    {
+      "title": "Something Else Reviews",
+      "topic": "Music",
+      "url": "https://somethingelsereviews.com/feed/"
+    },
+    {
+      "title": "Blue Note Records",
+      "topic": "Music",
+      "url": "https://www.bluenote.com/feed/"
+    },
+    {
+      "title": "Soompi",
+      "topic": "Music",
+      "url": "https://www.soompi.com/feed"
+    },
+    {
+      "title": "Koreaboo",
+      "topic": "Music",
+      "url": "https://www.koreaboo.com/feed/"
+    },
+    {
+      "title": "Seoulbeats",
+      "topic": "Music",
+      "url": "https://seoulbeats.com/feed/"
+    },
+    {
+      "title": "Korea Times Entertainment",
+      "topic": "Music",
+      "url": "https://feed.koreatimes.co.kr/k/entertainment.xml"
+    },
+    {
+      "title": "Remezcla",
+      "topic": "Music",
+      "url": "https://remezcla.com/feed/"
+    },
+    {
+      "title": "LaMezcla",
+      "topic": "Music",
+      "url": "https://lamezcla.com/feed/"
+    },
+    {
+      "title": "The Guardian Music",
+      "topic": "Music",
+      "url": "https://www.theguardian.com/music/rss"
     }
   ]
 }
