@@ -1,5 +1,5 @@
 {
-  "version": 51,
+  "version": 52,
   "thumbnailProxy": {
     "enabled": false,
     "baseUrl": "https://bknews-thumbs.blakekarnes.workers.dev",
@@ -2327,6 +2327,46 @@
       "title": "The Guardian Music",
       "topic": "Music",
       "url": "https://www.theguardian.com/music/rss"
+    },
+    {
+      "title": "Of Dollars and Data",
+      "topic": "Business",
+      "url": "https://ofdollarsanddata.com/feed/"
+    },
+    {
+      "title": "Greg Alder’s Yard Posts",
+      "topic": "Lifestyle",
+      "url": "https://gregalder.com/yardposts/feed/"
+    },
+    {
+      "title": "David Domoney",
+      "topic": "Lifestyle",
+      "url": "https://www.daviddomoney.com/feed/"
+    },
+    {
+      "title": "Nomadic Notes",
+      "topic": "Travel",
+      "url": "https://www.nomadicnotes.com/feed/"
+    },
+    {
+      "title": "Between England & Everywhere",
+      "topic": "Travel",
+      "url": "https://betweenenglandandiowa.com/feed/"
+    },
+    {
+      "title": "Just Jared",
+      "topic": "Celeb",
+      "url": "https://www.justjared.com/feed/"
+    },
+    {
+      "title": "Bossip",
+      "topic": "Celeb",
+      "url": "https://bossip.com/feed/"
+    },
+    {
+      "title": "eileenanddogs",
+      "topic": "Lifestyle",
+      "url": "https://eileenanddogs.com/feed/"
     }
   ]
 }
